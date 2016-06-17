@@ -13,7 +13,12 @@ var uglify = require('gulp-uglify');
 // Compile Our Sass
 gulp.task('sass', function() {
   return gulp.src('assets/scss/*.scss')
-    .pipe(plumber())
+    .pipe(plumber({
+      errorHandler: function (err) {
+        console.log(err);
+        this.emit('end');
+      }
+    }))
     .pipe(sass())
     .pipe(gulp.dest('assets/css'));
 });
