@@ -1,3 +1,7 @@
+@media print {
+  .blank-page {
+    height: 26cm; } }
+
 meta.foundation-version {
   font-family: "/5.5.3/"; }
 
@@ -58,7 +62,7 @@ body {
   background: #fff;
   color: #222;
   cursor: auto;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -1290,6 +1294,3 @@ table {
 td,
 th {
   padding: 0; }
-
-body {
-  color: #000; }
