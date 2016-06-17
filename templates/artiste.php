@@ -1,5 +1,6 @@
+<?php $color = a::get($content, 'color', 'undefined'); ?>
 <div class="article">
-  <div class="titre">
+  <div class="titre" data-color="<?php echo $color?>">
     <?php echo $Parsedown->text($titre);?>
   </div>
 

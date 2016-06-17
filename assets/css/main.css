@@ -1,3 +1,7 @@
+@media print {
+  .blank-page {
+    height: 26cm; } }
+
 meta.foundation-version {
   font-family: "/5.5.3/"; }
 
