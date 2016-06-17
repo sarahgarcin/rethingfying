@@ -1,4 +1,4 @@
-titre: Intro
+titre: Introduction
 ----
 text: 
 ## example

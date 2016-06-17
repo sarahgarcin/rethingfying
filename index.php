@@ -21,7 +21,7 @@
   ?>
 
 
-  <div class="content">
+  <div class="content row">
 
  <!-- Affichons toutes les erreurs -->
   <?php error_reporting(E_ALL);?>
