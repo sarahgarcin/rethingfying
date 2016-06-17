@@ -1,4 +1,6 @@
 // I M P O R T
+@import "../font/share/stylesheet.css";
+@import "../font/volkorn/stylesheet.css";
 @import "_variables.scss";
 @import "_print.scss";
 @import "../../bower_components/foundation/scss/foundation/components/grid";
@@ -6,15 +8,42 @@
 
 // T Y P O G R A P H Y
 
+
+
 // S T R U C T U R E
 @media all {
-	
+
+
+
 
 
 }
 
 @media screen {
-	
+
+	h1 {font-weight: normal;
+	    font-size: $taille-titre;}
+
+	h2 {font: 100% $font-titre;
+	    font-size: $soustitre;}
+
+	p  {font-size: $taille-text;}
+
+ .titre{ font: 100% $font-titre;}
+
+ .text{ font: 100% $font-text;
+        }
+
+ .article{border-width: 20px;
+          border-style: solid;
+          border-color: #FB0000;
+          padding-left: $marge-gauche;
+          padding-right: $marge-droite;}
+
+  .row{max-width: 100%;}
+
+
+
 
 
 }

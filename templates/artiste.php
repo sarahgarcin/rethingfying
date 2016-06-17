@@ -6,7 +6,9 @@
 
   <div class="text">
     <?php echo $Parsedown->text($text);?>
+    
   </div>
+  
 
   <div class="gallerie row">
   	<?php foreach($imagearray as $image){?>

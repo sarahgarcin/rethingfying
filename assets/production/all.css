@@ -1,3 +1,5 @@
+@import url(../font/share/stylesheet.css);
+@import url(../font/volkorn/stylesheet.css);
 @media print {
   .blank-page {
     height: 26cm; } }
@@ -1294,3 +1296,25 @@ table {
 td,
 th {
   padding: 0; }
+
+@media screen {
+  h1 {
+    font-weight: normal;
+    font-size: 50px; }
+  h2 {
+    font: 100% "share";
+    font-size: 35px; }
+  p {
+    font-size: 20px; }
+  .titre {
+    font: 100% "share"; }
+  .text {
+    font: 100% "volkorn"; }
+  .article {
+    border-width: 20px;
+    border-style: solid;
+    border-color: #FB0000;
+    padding-left: 107px;
+    padding-right: 400px; }
+  .row {
+    max-width: 100%; } }

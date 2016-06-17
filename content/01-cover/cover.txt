@@ -1,8 +1,8 @@
 titre: 
-# Titre hello
+# re-thingifying
 ----
 subtitle: 
-### Sous titre !
+## Sous titre !
 ----
 
 
