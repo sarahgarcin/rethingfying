@@ -1,4 +1,4 @@
-legende: test, ceci est une légende
+caption: test, ceci est une légende
 ----
 
 

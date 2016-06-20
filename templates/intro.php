@@ -6,6 +6,7 @@
   	<?php foreach($imagearray as $image){?>
   		<img class="small-6" src="<?php echo 'content/'.$folder.'/'.$image ?>" alt="">
   	<?php } ?>
+    <?php echo $Parsedown->text($caption);?>
   </div>
   <div class="text">
     <?php echo $Parsedown->text($text);?>

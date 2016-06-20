@@ -24,7 +24,7 @@
   <div class="content row">
 
  <!-- Affichons toutes les erreurs -->
-  <?php error_reporting(E_ALL);?>
+  <?php //error_reporting(E_ALL);?>
   
   <!-- utilisation du toolkit de kirby https://getkirby.com/docs/toolkit/api -->
   <?php $files = dir::read("content"); 
@@ -53,7 +53,17 @@
           $text = a::get($content, 'text', 'undefined');
           
           // Check if image has caption
-          if($file == $imagearray[0].".txt"):
+          $imageName = str_replace(".txt", "", $file);
+          //print($imageName);
+          $checkIfImage = explode('.', $imageName);
+          //print_r($checkIfImage[1]);
+          if($checkIfImage[1] == "jpg" || $checkIfImage[1] == "png" || $checkIfImage[1] == "svg" || $checkIfImage[1] == "gif" || $checkIfImage[1] == "jpeg" || $checkIfImage[1] == "JPG"):
+            //print('image has legend'. ' '. $imageName);
+            $captionFile = data::read('content/'.$folder.'/'.$file);
+            $caption = a::get($content, 'caption', 'undefined');
+          //endif;
+          
+          //if($file == $imagearray[0].".txt"):
 
           else:
             $template = str_replace(".txt", "", $file);
@@ -79,6 +89,13 @@
       } 
     }
   ?>
+
+  <!-- chaque dossier est une $page
+  - chaque champ du fichier texte est accessible par $page->nomduchamp()
+  - nom du champ est automatique
+  - toutes les images d'une page sont retournées par $page->images()
+  - les légendes sont accessibles ainsi $image->caption() (écrites dans un fichier du même nom que l'image dnas un champ caption)
+   -->
     
   </div>
 
