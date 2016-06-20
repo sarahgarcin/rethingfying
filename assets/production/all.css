@@ -1300,21 +1300,30 @@ th {
 @media screen {
   h1 {
     font-weight: normal;
-    font-size: 50px; }
+    font-size: 60px; }
   h2 {
     font: 100% "share";
     font-size: 35px; }
   p {
     font-size: 20px; }
+  .introduction {
+    padding-left: 40px;
+    padding-right: 40px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #6B6A76; }
+  .imagestart {
+    mix-blend-mode: luminosity; }
+  .imageend {
+    mix-blend-mode: luminosity; }
   .titre {
     font: 100% "share"; }
   .text {
     font: 100% "volkorn"; }
-  .article {
+  .contenu {
+    padding-left: 40px;
+    padding-right: 40px;
     border-width: 20px;
-    border-style: solid;
-    border-color: #FB0000;
-    padding-left: 107px;
-    padding-right: 400px; }
+    border-style: solid; }
   .row {
     max-width: 100%; } }

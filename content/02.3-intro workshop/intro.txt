@@ -1,0 +1,17 @@
+titre:#Re-Thingifying the Smart City
+----
+text: 
+
+Within the Internet of Things, environmental sensors are one type of digital instrument meant to enable citizens to act on environmental problems. The concept is that environmental problems can be understood and solved by collecting data through sensing devices. Yet how do citizens become productive, yet twitchy operators, within a sensor-based version of data-led politics? And in our anxiety to act positively upon environmental concerns, how do citizens as sensors  also potentially generate instrumentalized political practices? This workshop explores, through theoretical and hands-on approaches, how it might be possible to rework and re-thingify the anxieties to act (and make) not necessarily by producing new sensor data and devices, but by repurposing existing, leftover and failed ones within contemporary urban environments. 
+
+This workshop explores, through theoretical and hands-on approaches, how it might be possible to rework and re-thingify the anxieties to act (and make) not by necessarily by producing new sensor data and devices anew, but by repurposing existing, failed and leftover and failed ones within, as well as the banal and non-entrepreneurial sensing infrastructures of contemporary urban environments.
+
+
+
+
+
+
+
+
+
+ 

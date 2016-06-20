@@ -3,7 +3,11 @@ titre:
 ----
 header: ceci est un header
 ----
-color: #000
+color: #FF2400
+----
+imagestart: 
+----
+imageend:
 ----
 text: 
 Dolore nesciunt quae dicta. Dolore voluptatem id neque ea aliquam. Ab voluptates ad distinctio repellendus. Reiciendis suscipit consequatur et similique et. Ratione sunt velit odio illo incidunt eius consequuntur molestiae. Neque occaecati quam consequatur ex.

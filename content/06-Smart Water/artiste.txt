@@ -1,0 +1,17 @@
+titre: 
+# Smart Water
+----
+header: 
+##Claudia Göbel 
+----
+color: #0093FE
+----
+imagestart: 
+----
+imageend:
+----
+text: 
+I’m approaching sensor-based smart-city infrastructure through a citizen science lens and here from the angle of metadata and data standardization. I’m especially concerned with the social infrastructure of citizen science projects, and citizen science communities in Europe. I work for the European Citizen Science Association (ECSA) that seeks to build a network of citizen science project organizers for the exchange of good practice, joint projects and advocacy for CS in European research policy. As such, the association can be seen as one part, albeit a remote or meta one, of the sensor-based smart-city infrastructure. My interest is to explore ways to make this community of practice more inclusive so it can work as an amplifier for the diversity of voices in citizen science. I could contribute a ppt presenting the association’s aims, structure, history and work.
+
+I've two working ideas that both aim at making space for / including perspectives of repurposing / hacking of smart city infrastructures. (1) the question of how to make ECSA more inclusive. Number (2) relates to current endeavors of standardizing data and metadata on and from citizen science projects in a global initiative of citizen science associations and other actors – a key ingredient for a network of global smart cities. In this context I’ll be conducting a stakeholder analysis (for the Wilson Center Commons Lab) to identify “relevant” stakeholder groups and their concerns with data standardization. So my idea would be to use reflections / input from the workshop to refine the methodology of the analysis.
+
