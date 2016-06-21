@@ -18,7 +18,7 @@ function init(){
 
 	// recupérer la couleurs pour les bordures
 	$(".article").each(function(){
-		var color = $(this).attr('data-color');
+		var color = $(this).data('color');
 		$(this).find('.contenu').css({
 			"border-color": color
 		});

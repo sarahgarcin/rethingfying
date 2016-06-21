@@ -1,5 +1,7 @@
 titre:#Citizen Sens
 ----
+imageend:Citizensens.jpg
+----
 text: 
 
 The Citizen Sense project is led by Dr Jennifer Gabrys and is funded through a European Research Council (ERC) Starting Grant. The project, which runs from 2013-2017, investigates the relationship between technologies and practices of environmental sensing and citizen engagement. Sensors, which are an increasing part of digital communication infrastructures, are commonly deployed for environmental monitoring within scientific study. Practices of monitoring and sensing environments have migrated to a number of everyday participatory applications, where users of smart phones and networked devices are able to engage with similar modes of environmental observation and data collection. Such “citizen sensing” projects intend to democratize the collection and use of environmental sensor data in order to facilitate expanded citizen engagement in environmental issues. But how effective are these practices of citizen sensing in not just providing “crowd-sourced” data sets, but also in giving rise to new modes of environmental awareness and practice?

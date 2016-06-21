@@ -5,7 +5,7 @@
 
   <div class="article" data-color="<?php echo $color?>">
 
-    <div class="imagestart">
+    <div class="imagestart" >
           <img src="<?php echo 'content/'.$folder.'/'.$imagestart ?>" alt="">
     </div>
 

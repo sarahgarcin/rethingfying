@@ -1,4 +1,10 @@
-titre:#Re-Thingifying the Smart City
+titre:#Re-Thingifying 
+ #the Smart City
+----
+imagestart: tm workshopdescription.jpg
+----
+imageend:Eventbrite.jpg
+
 ----
 text: 
 

@@ -1,9 +1,12 @@
 titre: 
-# re-thingifying
+#Re-
+#Thingifying 
+#The Smart 
+#City
 ----
 subtitle: 
-## Sous titre !
 ----
+
 
 
 

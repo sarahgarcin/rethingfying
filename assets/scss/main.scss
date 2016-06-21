@@ -22,19 +22,21 @@
 @media screen {
 
 	h1 {font-weight: normal;
-	    font-size: $taille-titre;
-
-	   }
+	    font-size: 80px;
+      line-height : 35px;
+      padding-left: 40px;
+      }
 
 	h2 {font: 100% $font-titre;
 	    font-size: $soustitre;}
 
 	p  {font-size: $taille-text;
-		
-       }
+      padding-left: 40px;}
 
 
-  .introduction{padding-left: 40px;
+
+
+  .introduction{
  	              padding-right: 40px;
  	              border-width: 20px;
                 border-style: solid;
@@ -43,25 +45,23 @@
 
   //.article{background: #3EFE46;}
   
-  .imagestart { 
-   //background: ;
-    mix-blend-mode: luminosity;}
+  //.imagestart img{ 
+     
+  //mix-blend-mode: luminosity;}
 
-  .imageend { mix-blend-mode: luminosity;}
+  //.imageend { mix-blend-mode: luminosity;}
 
-  .titre{ font: 100% $font-titre;}
+
+
+  .contenu{border-width: 20px;
+           border-style: solid;}
+
+  .titre{ font: 200% $font-titre;}
+          
 
   .text{ font: 100% $font-text;}
 
-  .contenu{padding-left: 40px;
- 	         padding-right: 40px;
- 	         border-width: 20px;
-           border-style: solid;
-          }
+  .row{max-width: 100%;}
 
 
-
-   .row{max-width: 100%;}
-
-}
 
