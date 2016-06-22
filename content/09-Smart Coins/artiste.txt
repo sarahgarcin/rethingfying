@@ -6,10 +6,11 @@ header: ceci est un header
 ----
 color: #F7A10C
 ----
-imagestart: 
+imagestart: L1000694.jpg
 ----
-imageend:
+imageend: L1000695.jpg
 ----
+
 text: 
 I teach graphic design in Berlin. All work shown here is from undergraduate students within the course Graphic Design in Space.
 

@@ -8,7 +8,7 @@ color: #5DD739
 ----
 imagestart: 
 ----
-imageend:
+imageend:photos/L1000673.jpg
 ----
 text: 
 “The Internet of Things,” or (IoT) describes a trend advocating that all sorts of physical artifacts become connected to and controllable from the Internet. The IoT exists simultaneously as a rhetorical practice, an organization of actors, and as an assemblage of everyday things. An urban Internet of Things is an assemblage of people, technology companies, concerns around privacy, corporatism, upgradeability, cost, homes, park benches, trees, bicycles, utopianism, and more. All of these actors play a part in the IoT in practice, and understanding both what these are and how they operate in an interconnected way is important to understand what kinds of values and practices are being built into them while cast into this new data-oriented frame. One way to examine these assumptions is through considering IoT not as a system of objects in themselves, but instead as endpoints of infrastructure—manifested assumptions around what should be done, and by whom. Put differently, the Internet of Things consists of things (A. Telier 2011).

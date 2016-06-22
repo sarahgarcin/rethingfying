@@ -1,4 +1,4 @@
-titre: 
+stitre: 
 #Acknowledgements
 ----
 subtitle: 

@@ -1305,7 +1305,7 @@ th {
     padding-left: 40px; }
   h2 {
     font: "volkorn", bold;
-    font-size: 35px;
+    font-size: 28px;
     padding-left: 40px; }
   p {
     font-size: 20px;
@@ -1315,6 +1315,15 @@ th {
     border-width: 20px;
     border-style: solid;
     border-color: #6B6A76; }
+  .imagestart {
+    background-color: #EC4916;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    max-width: 60%; }
+  .imageend {
+    background-color: #EC4916;
+    background-blend-mode: luminosity;
+    max-width: 45%; }
   .contenu {
     border-width: 20px;
     border-style: solid; }

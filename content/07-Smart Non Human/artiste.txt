@@ -6,9 +6,9 @@ header: ceci est un header
 ----
 color: #8000FF
 ----
-imagestart: 
+imagestart: L1000688.jpg
 ----
-imageend:
+imageend: L1000689.jpg
 ----
 text: 
 Any technical regime of sensing is, more than likely, aligned with the capitalist mode where nature becomes material for development and exchange.  The “environment” must either be used, or failing that, preserved. Thus we have productive forests and aesthetic national parks. Nowhere are there chances to interrogate the disappearance of the experience, not to mention the category, of the natural.  And, of course, technologies of sense are of course also new opportunities for the production and sale of sensing hardware, and for the encoding of information about the perceivable world in ways that may require other technology to interpret, deepening the measurement paradigm. However, what technologies of sense could allow us to is, as Isabelle Stengers urges, pay attention. 

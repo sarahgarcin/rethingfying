@@ -5,9 +5,14 @@
 
   <div class="article" data-color="<?php echo $color?>">
 
-    <div class="imagestart" >
-          <img src="<?php echo 'content/'.$folder.'/'.$imagestart ?>" alt="">
-    </div>
+
+
+      <div class="imagestart" >
+            <img src="<?php echo 'content/'.$folder.'/'.$imagestart ?>" alt="">
+      </div>
+
+ 
+
 
 
     <div class="contenu" >
@@ -34,8 +39,12 @@
 
     </div>
 
-    <div class="imageend">
-          <img src="<?php echo 'content/'.$folder.'/'.$imageend ?>" alt="">
-    </div>
+
+        <div class="imageend">
+              <img src="<?php echo 'content/'.$folder.'/'.$imageend ?>" alt="">
+        </div>
+
+
+
 
   </div>

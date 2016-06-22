@@ -2,9 +2,11 @@
 <?php $imageend = a::get($content, 'imageend', 'undefined'); ?>
 
 
-    <div class="imagestart" >
+
+      <div class="imagestart" >
           <img src="<?php echo 'content/'.$folder.'/'.$imagestart ?>" alt="">
-    </div>
+      </div> 
+
 
 
 <div class="introduction">
@@ -13,19 +15,19 @@
     <?php echo $Parsedown->text($titre);?>
   </div>
 
-<div class="row">
+   <div class="row">
 
-  
+    
 
-  <div class="text small-7 columns">
-    <?php echo $Parsedown->text($text);?>
+      <div class="text small-7 columns">
+        <?php echo $Parsedown->text($text);?>
+      </div>
 
-  </div>
-
- </div>
+   </div>
 
 </div>
 
     <div class="imageend" >
           <img src="<?php echo 'content/'.$folder.'/'.$imageend ?>" alt="">
     </div>
+
