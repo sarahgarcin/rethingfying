@@ -3,9 +3,11 @@
 
 
 
-      <div class="imagestart" >
-          <img src="<?php echo 'content/'.$folder.'/'.$imagestart ?>" alt="">
-      </div> 
+<?php if($imagestart != 'undefined'): ?>
+  <div class="imagestart" >
+    <img src="<?php echo 'content/'.$folder.'/'.$imagestart ?>" alt="">
+  </div> 
+<?php endif ?>
 
 
 
@@ -26,8 +28,9 @@
    </div>
 
 </div>
-
-    <div class="imageend" >
-          <img src="<?php echo 'content/'.$folder.'/'.$imageend ?>" alt="">
-    </div>
+<?php if($imageend != 'undefined'): ?>
+  <div class="imageend" >
+        <img src="<?php echo 'content/'.$folder.'/'.$imageend ?>" alt="">
+  </div>
+<?php endif ?>
 

@@ -43,7 +43,6 @@
         if(f::extension($file) == "jpg" || f::extension($file) == "png" || f::extension($file) == "svg" || f::extension($file) == "gif" || f::extension($file) == "jpeg" || f::extension($file) == "JPG"):
           $imagearray[] = $file;
         endif;
-        
         // check si les fichiers sont des textes
         if(f::extension($file) == "txt"):
           $content = data::read('content/'.$folder.'/'.$file);
