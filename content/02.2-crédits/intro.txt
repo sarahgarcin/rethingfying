@@ -1,0 +1,23 @@
+titre:#Credits
+----
+text: 
+
+Acknowledgements for Re-thingifying the Smart City 
+
+The Re-Thingifying the Smart City workshop was organised by Jennifer Gabrys and Helen Pritchard as part of the Citizen Sense project area investigating “Urban Sensing.” The workshop was hosted in Berlin by Transmediale 2016, “Conversation Piece,” as part of the “Co-Curricular” program series. 
+
+Thanks are due to Kristoffer Gansing, Daphne Dragona, Elisabetta Rapetti, Ina Bassarak, and the many other organisers at Transmediale 2016 who made this event possible. We thank the workshop participants who provided materials for this publication, including Thomas Bjoernsten, Sune Fredskild, Claudia Göbel, Tom Jenkins, Caspar Menkman, Alison Powell, Jan-Henning Raff, and Gabriele Schliwa; as well as to the participants who contributed to the conversation and discussion during the workshop events. Thanks to Sebastian Loerscher for live recording the workshop and providing the illustrations in this publication, and to Sarah Garcin and […] for developing the graphic design and publishing tool that captures this research and event.
+
+The research leading to these results has received funding from the European Research Council under the European Union's Seventh Framework Programme (FP/2007-2013) / ERC Grant Agreement n. 313347, “Citizen Sensing and Environmental Practice: Assessing Participatory Engagements with Environments through Sensor Technologies.”
+
+For more information on the Citizen Sense research project, see citizensense.net.
+
+
+
+
+
+
+
+
+
+ 

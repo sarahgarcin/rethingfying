@@ -1,0 +1,19 @@
+titre:#Re-Thingifying
+----
+text: 
+
+The point here is not merely to attend to the increasing computerization and sensorization of gadgets, but also to focus on the ways in which the Internet of Things and the proliferation of sensors shift the registers, materialities, and environments in and through which we access and experience computation. The Internet of Things
+works toward the networking and interoperability of objects and infrastructures and, in the process, generates distinct environments and materialities of computation. These are not simply environments as spatial zones or assemblages; even more so, they are environments as emerging conditions by which the Internet of Things is able to control and inform the capacities of and relations to these things, as a distinct technological development.
+
+
+
+
+
+
+
+
+
+
+
+
+ 

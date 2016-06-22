@@ -1,5 +1,13 @@
 @media print {
 
-	.blank-page{height: $pageHeight;}
+	.blank-page{
+		        height: $pageHeight;
+	           }
 
+
+	
+    .article{
+    	     height: $pageHeight;
+    	     
+           }
 }
