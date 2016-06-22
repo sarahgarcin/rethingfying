@@ -1,9 +1,10 @@
 titre: 
-# Test
+# Smart
+# Swans
 ----
 header: ceci est un header
 ----
-color: #000
+color: #FF2400
 ----
 imagestart: 
 ----

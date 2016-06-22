@@ -1,9 +1,10 @@
 titre: 
-# Test
+# Smart
+# Bins
 ----
 header: ceci est un header
 ----
-color: #0043ff
+color: #C9A54A
 ----
 imagestart: 02.jpg
 ----

@@ -1304,8 +1304,9 @@ th {
     line-height: 35px;
     padding-left: 40px; }
   h2 {
-    font: 100% "share";
-    font-size: 35px; }
+    font: "volkorn", bold;
+    font-size: 35px;
+    padding-left: 40px; }
   p {
     font-size: 20px;
     padding-left: 40px; }
@@ -1318,7 +1319,7 @@ th {
     border-width: 20px;
     border-style: solid; }
   .titre {
-    font: 200% "share"; }
+    font: 100% "share"; }
   .text {
     font: 100% "volkorn"; }
   .row {

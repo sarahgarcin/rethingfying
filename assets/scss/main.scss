@@ -27,12 +27,12 @@
       padding-left: 40px;
       }
 
-	h2 {font: 100% $font-titre;
-	    font-size: $soustitre;}
+	h2 {font: $font-text,bold;
+	    font-size: $soustitre;
+      padding-left: 40px;}
 
 	p  {font-size: $taille-text;
       padding-left: 40px;}
-
 
 
 
@@ -56,12 +56,14 @@
   .contenu{border-width: 20px;
            border-style: solid;}
 
-  .titre{ font: 200% $font-titre;}
+  .titre{ font: 100% $font-titre;}
           
 
   .text{ font: 100% $font-text;}
 
   .row{max-width: 100%;}
+
+}
 
 
 
