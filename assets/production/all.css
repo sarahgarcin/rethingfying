@@ -1,10 +1,28 @@
 @import url(../font/share/stylesheet.css);
 @import url(../font/volkorn/stylesheet.css);
+@page {
+  size: 20cm  26cm; }
+
 @media print {
   .blank-page {
     height: 26cm; }
-  .article {
-    height: 26cm; } }
+  .coverbreak-after {
+    float: none;
+    page-break-after: always; }
+    .coverbreak-after .imagecouv {
+      size: 20cm 26cm; }
+    .coverbreak-after .titre {
+      font-family: "share";
+      font-size: 26pt;
+      line-height: 28pt;
+      color: #FFFFFF;
+      left: 2cm; }
+  .imagestart {
+    width: 100%; }
+  .imageend {
+    width: 100%; }
+  .cover2break-after {
+    page-break-before: always; } }
 
 meta.foundation-version {
   font-family: "/5.5.3/"; }
@@ -1299,23 +1317,36 @@ td,
 th {
   padding: 0; }
 
+.titre {
+  font: 100% "share"; }
+
+.text {
+  font: 100% "volkorn"; }
+
+h2 {
+  font: "volkorn", bold;
+  font-size: 28px;
+  padding-left: 40px; }
+
+p {
+  font-size: 20px;
+  padding-left: 40px; }
+
+@media screen {
+  .titre {
+    line-height: 1em;
+    padding-left: 40px; }
+  .coverbreak-after .titre {
+    font-size: 2.5em;
+    color: #FFFFFF; }
+  .imagestart {
+    float: right;
+    max-width: 60%; }
+  .imageend {
+    float: left;
+    max-width: 45%; } }
+
 @media all {
-  h1 {
-    font-weight: normal;
-    font-size: 80px;
-    line-height: 35px;
-    padding-left: 40px; }
-  h2 {
-    font: "volkorn", bold;
-    font-size: 28px;
-    padding-left: 40px; }
-  p {
-    font-size: 20px;
-    padding-left: 40px; }
-  .row {
-    max-width: 100%; }
-  .introduction {
-    padding-right: 40px; }
   .coverbreak-after {
     position: relative; }
     .coverbreak-after .titre {
@@ -1323,23 +1354,16 @@ th {
       top: 50%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      color: #FFFFFF; }
-  .imagestart {
-    float: right;
-    max-width: 60%; }
-  .gallerie {
-    max-width: 40%; }
-  .imageend {
-    float: left;
-    background-color: #EC4916;
-    background-blend-mode: luminosity;
-    max-width: 45%; }
+      transform: translateY(-50%); }
+  .row {
+    max-width: 100%; }
+  .introduction {
+    padding-right: 40px; }
+    .introduction .titre {
+      font-size: 1.5em; }
   .contenu {
     clear: both;
     border-width: 20px;
     border-style: solid; }
-  .titre {
-    font: 100% "share"; }
-  .text {
-    font: 100% "volkorn"; } }
+    .contenu .titre {
+      font-size: 2em; } }

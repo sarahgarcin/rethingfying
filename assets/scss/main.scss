@@ -7,56 +7,33 @@
 @import "../../bower_components/foundation/scss/normalize.scss";
 
 // T Y P O G R A P H Y
+  .titre{ font: 100% $font-titre;}
 
+  .text{ font: 100% $font-text;}
+
+  h2 {font: $font-text,bold;
+      font-size: $soustitre;
+      padding-left: 40px;}
+
+  p  {font-size: $taille-text;
+      padding-left: 40px;}
 
 
 // S T R U C T U R E
 @media screen {
 
-
-
-
-
-}
-
-@media all {
-
-	h1 {font-weight: normal;
-	    font-size: 80px;
-      line-height : 35px;
-      padding-left: 40px;
-      }
-
-	h2 {font: $font-text,bold;
-	    font-size: $soustitre;
-      padding-left: 40px;}
-
-	p  {font-size: $taille-text;
-      padding-left: 40px;}
-
-
-  .row{max-width: 100%;}
-
-  .introduction {
-    padding-right: 40px;
- 
-  }
-
-  //.article{background-color: #EC4916;}
+  .titre{
+          line-height : 1em;
+          padding-left: 40px;
+         }
 
   .coverbreak-after {
-                      position:relative;
                       .titre{
-                          position: absolute;
-                               top: 50%;
-                          -webkit-transform: translateY(-50%);
-                          -ms-transform: translateY(-50%);
-                          transform: translateY(-50%);  
+                             font-size: 2.5em;
                              color:#FFFFFF;
                             }
-
                     }
-  
+
   .imagestart{float: right;
               //background-color: #EC4916;
               //background-size: cover;
@@ -64,30 +41,49 @@
               max-width: 60%;
               }
 
-  .gallerie{
-            max-width: 40%;
-
-           }
   .imageend {float: left;
-             background-color: #EC4916;
-             background-blend-mode: luminosity;
+             //background-color: #EC4916;
+             //background-blend-mode: luminosity;
              max-width: 45%;
             }
+}
+
+@media all {
+
+  .coverbreak-after {
+                      position:relative;
+                      .titre{
+                             position: absolute;
+                             top: 50%;
+                          -webkit-transform: translateY(-50%);
+                          -ms-transform: translateY(-50%);
+                          transform: translateY(-50%);  
+                             
+                            }
+
+                    }
 
 
+
+
+
+  .row{max-width: 100%;}
+
+  .introduction {
+                  padding-right: 40px;
+                  .titre{font-size: 1.5em;
+                        }
+ 
+                }
 
   .contenu{clear:both;
            border-width: 20px;
            border-style: solid;
+          .titre{font-size:2em;}
+
+
           }
-
-  .titre{ font: 100% $font-titre;}
-          
-
-  .text{ font: 100% $font-text;}
-
-
-
+    
 }
 
 
