@@ -3,7 +3,7 @@ titre:
 ----
 header: Sune Fredskild
 ----
-color: #5EFFF5
+color: #27AAE1
 ----
 imagestart: photos/L1000675.jpg
 ----

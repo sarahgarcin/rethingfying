@@ -1,7 +1,7 @@
 <!-- Champs spécifiques -->
 <?php $subtitle = a::get($content, 'subtitle', 'undefined'); ?>
 
-<div class="cover break-after">
+<div class="cover2break-after">
 
   
 

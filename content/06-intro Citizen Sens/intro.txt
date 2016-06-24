@@ -1,7 +1,5 @@
 titre:#Citizen Sens
 ----
-imageend: photos/Sensor.jpg
-----
 
 text: 
 
