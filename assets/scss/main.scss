@@ -15,24 +15,42 @@
       font-size: $soustitre;
       padding-left: 40px;}
 
-  p  {font-size: $taille-text;
-      padding-left: 40px;}
+
 
 
 // S T R U C T U R E
 @media screen {
 
-  .titre{
-          line-height : 1em;
-          padding-left: 40px;
-         }
+    .introduction {
+                   .titre{font-size: 1.5em;
+                          line-height: 1em;
+                          padding-left:40px;
+                        }
+ 
+                }
+
+  .contenu{
+
+            .titre{ font-size:2em;
+                    line-height : 1em;
+                    padding-left: 40px;
+                   }
+          }
+
+  .text{ font-size: $taille-text;
+       padding-left: 50px;
+      }
+
 
   .cover {
-    .titre{
-           font-size: 2.5em;
-           color:#FFFFFF;
-          }
-  }
+                      position:relative;
+                      .titre{
+                             padding-left: 40px;
+                             font-size: 2.5em;
+                             line-height: 1em;
+                             color:#FFFFFF;
+                            }
+                    }
 
   .imagestart{float: right;
               //background-color: #EC4916;
@@ -46,12 +64,12 @@
              //background-blend-mode: luminosity;
              max-width: 45%;
             }
+  
 }
 
 @media all {
 
-  .cover {
-                      position:relative;
+  .cover{
                       .titre{
                              position: absolute;
                              top: 50%;
@@ -63,28 +81,19 @@
 
                     }
 
+  .row{ 
+       max-width: 100%;
+      }
 
-
-
-
-  .row{max-width: 100%;}
-
-  .introduction {
-                  padding-right: 40px;
-                  .titre{font-size: 1.5em;
-                        }
+  .contenu{ 
+             clear:both;
+             border-width: 20px;
+             border-style: solid;
+           }
  
-                }
-
-  .contenu{clear:both;
-           border-width: 20px;
-           border-style: solid;
-          .titre{font-size:2em;}
-
-
-          }
     
 }
+
 
 
 

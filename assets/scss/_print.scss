@@ -1,5 +1,6 @@
 @page {
 	   size: 20cm  26cm;
+
       }
 
 @media print {
@@ -9,36 +10,76 @@
 	           }
 
 	.coverbreak-after {
-		               
 		               margin: 0; 
 		               float: none;
 		               page-break-after: always;
-		               .imagecouv{
-		               	          size: 20cm 26cm;
+		               .imagecouv{ 
+		               	          width: 130.1%;
 		                         }
-
 		               .titre{
 		               	      font-family: $font-titre ;
-		               	      font-size: 26pt;
-		               	      line-height: 28pt;
+		               	      font-size: 25pt;
+		               	      line-height: 26pt;
 		               	      color: #FFFFFF;
 		               	      left: 2cm;
-		                 }
+		                     }
 		              }
 
+    .introduction{
+    	          .titre{
+    	      	     font-size: 20pt;
+    	      	     line-height: 24pt;
+    	      	     padding-left: 2cm;
+    	             }
+    	       	.text{
+    	       		 font-size: 16pt;
+    	       		 line-height: 18pt;
+    	       		 padding-left: 2cm;
+    	            }
+    	         page-break-after: always;
+                 }
 
-	.imagestart{ 
-		        width: 100%; 
+
+
+    .article{ 
+
+
+              	 width: auto;
+	    	      .titre{
+	    	      	     font-size: 25pt;
+	    	      	     line-height: 27pt;
+	    	      	     padding-left: 3cm;
+	    	             }
+	    	       .text{
+	    	       		 font-size: 20pt;
+	    	       		 line-height: 22pt;
+	    	       		 padding-left: 3cm;
+	    	       		 padding-right: 2cm;
+	    	            }
+
+            }
+
+
+	.imagestart{
+		        float: none;
+		        width: 130.1%;
+		        page-break-after: always; 
 			   }
 
 	.imageend{ 
-		  	  width: 100%; 
+		      page-break-before: always;
+		      float: none;
+		  	  width: 130.1%; 
  			}	              
     
 
     .cover2break-after{
     	   				page-break-before: always;
         			  }
+
+
+
+
 
 
 }

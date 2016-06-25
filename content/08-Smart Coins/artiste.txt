@@ -4,7 +4,7 @@ titre:
 ----
 header: ceci est un header
 ----
-color: #F7A10C
+color: #C1991A
 ----
 imagestart: photos/L1000694.jpg
 ----
