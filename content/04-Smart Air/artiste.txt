@@ -5,9 +5,9 @@ header: Sune Fredskild
 ----
 color: #5EFFF5
 ----
-imagestart: L1000675.jpg
+imagestart: photos/L1000675.jpg
 ----
-imageend:L1000676.jpg
+imageend:photos/L1000676.jpg
 ----
 text: 
 ##My approach to sensor based smart city infrastructure.

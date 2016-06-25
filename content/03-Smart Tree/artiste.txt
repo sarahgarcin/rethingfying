@@ -6,7 +6,7 @@ header: ceci est un header
 ----
 color: #5DD739
 ----
-imagestart: 
+imagestart:
 ----
 imageend:photos/L1000673.jpg
 ----

@@ -6,9 +6,9 @@ header: ceci est un header
 ----
 color: #FF2400
 ----
-imagestart: L1000696.jpg
+imagestart: photos/L1000696.jpg
 ----
-imageend: L1000698.jpg
+imageend: photos/L1000698.jpg
 ----
 text: 
 Dolore nesciunt quae dicta. Dolore voluptatem id neque ea aliquam. Ab voluptates ad distinctio repellendus. Reiciendis suscipit consequatur et similique et. Ratione sunt velit odio illo incidunt eius consequuntur molestiae. Neque occaecati quam consequatur ex.

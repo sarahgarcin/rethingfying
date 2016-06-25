@@ -6,9 +6,9 @@ header: ceci est un header
 ----
 color: #F7A10C
 ----
-imagestart: L1000694.jpg
+imagestart: photos/L1000694.jpg
 ----
-imageend: L1000695.jpg
+imageend: photos/L1000695.jpg
 ----
 
 text: 

@@ -1,5 +1,5 @@
 <!-- Champs spécifiques -->
-<div class="cover break-after" style=" position:relative; " >
+<div class="cover break-after">
 <!-- 
     <?php foreach($page->images() as $image){
         //echo $image['file']."</br>";
@@ -8,7 +8,7 @@
     <?php } ?>
 
  -->
-    <div class="imagecouv" style="position:absolute; z-index:1;">
+    <div class="imagecouv">
     	<?php foreach($page->images() as $image){
             //echo $image['file']."</br>";
             // echo $image['caption']."</br>";?>
@@ -16,14 +16,7 @@
         <?php } ?>
     </div> 
 
-    <div class="titre" style=" position: absolute; z-index: 2; top:240px; padding-left:104px; color:#FFFFFF;">
+    <div class="titre">
       <?php echo $Parsedown->text($page->titre);?>
     </div>
-
-
-<!--     <div class="sous-titre">
-      <?php echo $Parsedown->text($subtitle);?>
-    </div> -->
-  
-
 </div>

@@ -1,5 +1,44 @@
+@page {
+	   size: 20cm  26cm;
+      }
+
 @media print {
 
-	.blank-page{height: $pageHeight;}
+	.blank-page{
+		        height: $pageHeight;
+	           }
+
+	.coverbreak-after {
+		               
+		               margin: 0; 
+		               float: none;
+		               page-break-after: always;
+		               .imagecouv{
+		               	          size: 20cm 26cm;
+		                         }
+
+		               .titre{
+		               	      font-family: $font-titre ;
+		               	      font-size: 26pt;
+		               	      line-height: 28pt;
+		               	      color: #FFFFFF;
+		               	      left: 2cm;
+		                 }
+		              }
+
+
+	.imagestart{ 
+		        width: 100%; 
+			   }
+
+	.imageend{ 
+		  	  width: 100%; 
+ 			}	              
+    
+
+    .cover2break-after{
+    	   				page-break-before: always;
+        			  }
+
 
 }

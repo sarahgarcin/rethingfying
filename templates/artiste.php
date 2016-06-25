@@ -1,9 +1,9 @@
-<?php //echo $page->titre;?>
-<?php //echo $page->text;?>
   <div class="article" data-color="<?php echo $page->color?>">
-    <div class="imagestart" >
-      <img src="<?php echo 'content/'.$folder.'/'.$page->imagestart ?>" alt="">
-    </div>
+    <?php if(isset($page->imagestart)){ ?>
+      <div class="imagestart" >
+        <img src="<?php echo 'content/'.$folder.'/'.$page->imagestart ?>" alt="">
+      </div>
+    <?php } ?>
 
     <div class="contenu" >
 
@@ -21,20 +21,14 @@
           <?php foreach($page->images() as $image){
             //echo $image['file']."</br>";
             //echo $image['url']."</br>";?>
-            <img src="<?php echo $image['url'] ?>" alt="">
+            <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['url'] ?>">
           <?php } ?>
         </div>
-
       </div>
-
     </div>
 
-
-    <div class="imageend">
-          <img src="<?php echo 'content/'.$folder.'/'.$page->imageend ?>" alt="">
-    </div>
-
-
-
-
-  </div>
+    <?php if(isset($page->imageend)){ ?>
+      <div class="imageend" >
+        <img src="<?php echo 'content/'.$folder.'/'.$page->imageend ?>" alt="">
+      </div>
+    <?php } ?>
