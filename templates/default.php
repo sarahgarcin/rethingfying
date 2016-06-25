@@ -1,9 +1,13 @@
 <div class="article">
-  <div class="titre">
-    <?php echo $Parsedown->text($page->titre);?>
-  </div>
+	<?php if(isset($page->titre)){ ?>
+	  <div class="titre">
+	    <?php echo $Parsedown->text($page->titre);?>
+	  </div>
+  <?php } ?>
 
-  <div class="text">
-    <?php echo $Parsedown->text($page->text);?>
-  </div>
+  <?php if(isset($page->text)){ ?>
+	  <div class="text">
+	    <?php echo $Parsedown->text($page->text);?>
+	  </div>
+  <?php } ?>
 </div>
