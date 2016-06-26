@@ -4,28 +4,23 @@ titre:
 ----
 header: ceci est un header
 ----
-color: #FF2400
+color: #92278F
 ----
 imagestart: photos/L1000696.jpg
+
 ----
-imageend: photos/L1000698.jpg
-----
-text: 
-Dolore nesciunt quae dicta. Dolore voluptatem id neque ea aliquam. Ab voluptates ad distinctio repellendus. Reiciendis suscipit consequatur et similique et. Ratione sunt velit odio illo incidunt eius consequuntur molestiae. Neque occaecati quam consequatur ex.
-Debitis magnam dolorem qui asperiores. Maiores mollitia cum debitis saepe provident nihil. Reprehenderit necessitatibus mollitia rerum sit et natus adipisci.
-Possimus adipisci quam ducimus deleniti. Ipsum dignissimos ut sed sint et. Dolor voluptates excepturi quis dolor harum molestiae. Modi qui sed asperiores ab.
-Qui expedita omnis saepe id repellat. Sit tenetur eum minus officia iusto consequatur. Libero qui hic sunt impedit vero.
-Consequuntur et consequatur debitis molestiae laudantium maiores. Mollitia minima quia quaerat delectus magni. Molestiae atque laborum porro error necessitatibus. Nihil ut aut amet impedit mollitia. Non culpa dolorem fugit autem voluptas delectus. Et voluptatum minus est molestias accusamus et ut.
+text:###Alison Powell
 
-Dolore nesciunt quae dicta. Dolore voluptatem id neque ea aliquam. Ab voluptates ad distinctio repellendus. Reiciendis suscipit consequatur et similique et. Ratione sunt velit odio illo incidunt eius consequuntur molestiae. Neque occaecati quam consequatur ex.
-Debitis magnam dolorem qui asperiores. Maiores mollitia cum debitis saepe provident nihil. Reprehenderit necessitatibus mollitia rerum sit et natus adipisci.
-Possimus adipisci quam ducimus deleniti. Ipsum dignissimos ut sed sint et. Dolor voluptates excepturi quis dolor harum molestiae. Modi qui sed asperiores ab.
-Qui expedita omnis saepe id repellat. Sit tenetur eum minus officia iusto consequatur. Libero qui hic sunt impedit vero.
-Consequuntur et consequatur debitis molestiae laudantium maiores. Mollitia minima quia quaerat delectus magni. Molestiae atque laborum porro error necessitatibus. Nihil ut aut amet impedit mollitia. Non culpa dolorem fugit autem voluptas delectus. Et voluptatum minus est molestias accusamus et ut.
+##Sensing Feral Cities
+LSE Data and Society
 
-Dolore nesciunt quae dicta. Dolore voluptatem id neque ea aliquam. Ab voluptates ad distinctio repellendus. Reiciendis suscipit consequatur et similique et. Ratione sunt velit odio illo incidunt eius consequuntur molestiae. Neque occaecati quam consequatur ex.
-Debitis magnam dolorem qui asperiores. Maiores mollitia cum debitis saepe provident nihil. Reprehenderit necessitatibus mollitia rerum sit et natus adipisci.
-Possimus adipisci quam ducimus deleniti. Ipsum dignissimos ut sed sint et. Dolor voluptates excepturi quis dolor harum molestiae. Modi qui sed asperiores ab.
-Qui expedita omnis saepe id repellat. Sit tenetur eum minus officia iusto consequatur. Libero qui hic sunt impedit vero.
-Consequuntur et consequatur debitis molestiae laudantium maiores. Mollitia minima quia quaerat delectus magni. Molestiae atque laborum porro error necessitatibus. Nihil ut aut amet impedit mollitia. Non culpa dolorem fugit autem voluptas delectus. Et voluptatum minus est molestias accusamus et ut.
 
+Any technical regime of sensing is, more than likely, aligned with the capitalist mode where nature becomes material for development and exchange.  The “environment” must either be used, or failing that, preserved. Thus we have productive forests and aesthetic national parks. Nowhere are there chances to interrogate the disappearance of the experience, not to mention the category, of the natural.  And, of course, technologies of sense are of course also new opportunities for the production and sale of sensing hardware, and for the encoding of information about the perceivable world in ways that may require other technology to interpret, deepening the measurement paradigm. However, what technologies of sense could allow us to is, as Isabelle Stengers urges, pay attention. 
+
+Our work concerns how work using sensing technologies develops an ‘ethics of care’ between humans, animals and technological systems. This ethic of care draws upon theories that focus on the inevitable tension and overlap between human experience and the non-human – technological, biological, or hybrid.
+
+Paradigms of human management and control fail to account for the reality of interdependence, and most smart cities sensing projects treat animal interaction as an error. The designers of a water quality sensing system in Oxford, for example, note that one of the limitations of their system’s capacity to raise alerts of foreign bodies in the water was that “it cannot tell the difference between a goose and a shopping cart” (OxFlood, presentation at UK IGF). Similarly, designers of smart city sensing testbed in Glasgow report that one of the initial issues with its motion-sensitive security monitors was the way that the nocturnal movements of foxes triggered the sensors designed to monitor suspicious humans.
+
+These “errors” highlight how other species appear in current sensing regimes. For urban dwellers, who have so thoroughly internalized that “our species being is realigned to stop Others at home’s door” the most radical potential of sensing networks may be in understanding and needing to accept the connections between what is like us and what is foreign: a kind of broader empathy that is seldom considered in relation to human made architectures of cities. 
+
+We propose to repurpose IoT technologies to allow them to sense the non human life around us and allow us to respond.

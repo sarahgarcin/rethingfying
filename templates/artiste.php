@@ -22,6 +22,7 @@
 
       <div class="row">
 
+    
           <div class="text small-6 columns">
             <?php echo $Parsedown->text($text);?>
           </div>

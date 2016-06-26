@@ -29,7 +29,12 @@
       line-height: 18pt;
       padding-left: 2cm; }
   .article {
+    position: relative;
     width: auto; }
+    .article .page {
+      clear: both;
+      border-width: 20px;
+      border-style: solid; }
     .article .titre {
       font-size: 25pt;
       line-height: 27pt;
@@ -41,12 +46,14 @@
       padding-right: 2cm; }
   .imagestart {
     float: none;
-    width: 130.1%;
-    page-break-after: always; }
+    width: 130.2%;
+    page-break-after: always;
+    page-break-before: always; }
   .imageend {
+    page-break-after: always;
     page-break-before: always;
     float: none;
-    width: 130.1%; }
+    width: 130.2%; }
   .cover2break-after {
     page-break-before: always; } }
 
@@ -1351,8 +1358,7 @@ th {
 
 h2 {
   font: "volkorn", bold;
-  font-size: 28px;
-  padding-left: 40px; }
+  font-size: 28px; }
 
 @media screen {
   .introduction .titre {

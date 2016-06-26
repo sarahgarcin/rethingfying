@@ -1,14 +1,16 @@
 titre: 
-# Smart 
-#Tree
+#Smart 
+#Fruits
 ----
 header: ceci est un header
 ----
-color: #5DD739
+color: #F15A29
 ----
 imageend:photos/L1000673.jpg
 ----
 text: 
+###Tom Jenkins
+
 “The Internet of Things,” or (IoT) describes a trend advocating that all sorts of physical artifacts become connected to and controllable from the Internet. The IoT exists simultaneously as a rhetorical practice, an organization of actors, and as an assemblage of everyday things. An urban Internet of Things is an assemblage of people, technology companies, concerns around privacy, corporatism, upgradeability, cost, homes, park benches, trees, bicycles, utopianism, and more. All of these actors play a part in the IoT in practice, and understanding both what these are and how they operate in an interconnected way is important to understand what kinds of values and practices are being built into them while cast into this new data-oriented frame. One way to examine these assumptions is through considering IoT not as a system of objects in themselves, but instead as endpoints of infrastructure—manifested assumptions around what should be done, and by whom. Put differently, the Internet of Things consists of things (A. Telier 2011).
 Concrete Jungle is a foraging group that collects fallen fruit from untended trees around Atlanta and donates them to homeless shelters and food banks. As a small nonprofit organization, they have limited manpower to devote to the task. They rely on volunteers to pick and distribute fruit, and interested observers to track of the ripeness of a city’s worth of fruit trees. Casual foraging will never be automated at scale, so no existing electronic solution is feasible. We're developing a sensor that can detect ripening fruit and signal to organizers over the internet that the fruit on a tree is ready to be collected. 
 

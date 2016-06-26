@@ -11,9 +11,11 @@ imagestart: photos/L1000694.jpg
 imageend: photos/L1000695.jpg
 ----
 
-text: 
+text:
+###Janhenning Raff
+
 I teach graphic design in Berlin. All work shown here is from undergraduate students within the course Graphic Design in Space.
 
-##Approach to smart-city
+###Approach to smart-city
 The work is funded by the local “Quartiersmanagement”, a state initiative to empower people in “problem areas”. Thus, the main drive behind all work is “activation” of inhabitants. The students observe where people come together and then try to initialise a communication with a graphic design intervention.
 
