@@ -4,13 +4,15 @@ titre:
 ----
 header: ceci est un header
 ----
-color: #FFFF00
+color: #FFF200
 ----
 imagestart: photos/L1000691.jpg
 ----
 imageend:photos/L1000692.jpg
 ----
 text: 
+##Caspar Menkman
+
 My interest lies with the changing ontology of the household through the integration of smart technologies. Specifically in terms of its connection to critical infrastructures such as smart grids. What is happening is a downstream shift of the grid edge: the space at which active control over both the business management and energy management systems can be enacted. Traditionally this was at the transformer level, but now it is starting to encompass also the household. This creates a new frontier where actors of different worlds collide in a space with no previously established rules
 of engagement.
 

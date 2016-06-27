@@ -16,12 +16,12 @@
         <div class="text small-6 columns">
           <?php echo $Parsedown->text($page->text);?>
         </div>
-        
+
         <div class="gallerie small-6 columns">
           <?php foreach($page->images() as $image){
             //echo $image['file']."</br>";
             //echo $image['url']."</br>";?>
-            <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['url'] ?>">
+            <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['file'] ?>">
           <?php } ?>
         </div>
       </div>

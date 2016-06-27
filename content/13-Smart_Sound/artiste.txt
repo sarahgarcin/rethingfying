@@ -1,0 +1,68 @@
+titre: 
+# Smart
+# Sound
+----
+header: ceci est un header
+----
+color: #006838
+----
+imagestart: photos/L1000688.jpg
+----
+imageend: photos/L1000689.jpg
+----
+text: 
+
+##Attunement and Vibrations in the Smart City 
+##Thomas Bjoernsten
+by DesigningSense.dk 
+
+Who: A group of practice based and theoretical researchers from Aarhus University withdifferent backgrounds in Sound Studies, Musicology, Audio Design, Visual Culture andAesthetics. (http://designingsense.dk) 
+ 
+What: We develop multi sensory design solutions and ideas for digital and data driven technologies. Our focus is to combine conventional visual information displays and interfaces with tangible experience and auditory communication H turning abstract data into physical and engaging matter. This also involves diverse uses of audio that are not derived from traditional speaker technologies, but based on other types of mechanical means of sonic production. 
+ 
+Our current main concern is developing new ways of exploiting and reHthinking already existing digital media through techniques of attunement and the vibrational aspects that emerge from nonHvisual, tactile strategies. One specific concept dealing with this is “SmartPulse” which is meant to keep users continuously in sync with their level of energy consumption
+
+In our everyday lives we spend more and more time interpreting huge amounts of visual information communicated through screens of different sizes and styles. SmartPulse is about exploiting and combining the – often not used – potentials already present in smart devices by utilizing auditory and vibrational means for conveying specific information to individuals and groups of users, whether this is channeled through phones, smart watches or new apparatuses derived from IoTHrelated technologies. Employing a simple, but versatile system of ‘language’ based on pulse and vibration, SmartPulse enables the user to monitor and adjust different aspects of the energy consumption without interfering in other imageH or textHbased streams of information and communication. 
+ 
+Potentially the SmartPulseHsystem can be extended into working with a broad range of functionalities in the Smart City and/or IoTHbased home, layered on top of already existing apps or customHdesigned for new projects and devices. 
+ 
+Our collective work is rooted in various research projects that we have done or are currently working on. We are also writing a book on the topic of attunement. A few examples of previous, present, and forthcoming research based work include the following: 
+ 
+
+###Story’Benches,’2015H16 (by Marie Højlund) 
+ 
+Story Benches are site specific installations placed in municipalities around Aarhus. Augmenting the function of a bench as a place for rest and mind wandering the Story Bench makes the local history come to life on location. When leaning your head back to the head rest, a voice that only you can hear tells forgotten stories from the past of the specific surroundings, by conduction sound to the inner ear through the bones of the skull. Different 
+from using headphones, this way of listening acknowledges our ability to focus our listening attention on a single voice among a cacophony of sound and background noise. 
+
+###Opaque’Sounding, 2014 – (By Morten Riis) 
+ 
+A work that uses outdated projection technology partly as a visual expression, but also as the central sounding. As a reconfiguration of the mechanical and physical properties of the device that traditionally were used to create visual fantasies and wonders, the projection device is transformed into a music machine that processes its own version of a forgotten technological utopia dealing with the all absorbing audioHvisual immersion.
+
+###Data;Waves, 2015 H ’(by Thomas Bjørnsten) 
+
+A project about the possible uses of radio / frequencies for sharing, transmitting, and 
+receiving data and software. Conceived as an installation and an app, the project also reflects 
+on the history of DIY data transmission through strategies of tuning and attunement by 
+means of different media. This implies various ideas of tuning into data, which are framed by 
+certain social practices of acquiring and distributing ‘wares through waves’ both inside and 
+outside of established institutions as well as through underground and political communities.  
+
+###Rethink’the’OverHEARD, 2017 (by Marie Højlund and Morten Riis) 
+ 
+Rethink the OverHEARD will invite the citizens of Region Midt, Denmark, to actively tune into the overheard surroundings with us, and begin to rethink traditional distinctions between sound, music, noise and environment. The aim is to develop an attentive ear, and inspire everyone to form a new relationship with everyday noises. It is our wish that Rethink the overHEARD engages a broad range of citizens to actively reshape the everyday hubbub, 
+rather than be passive receptors of noise pollution 
+
+###Related’research’and’references’
+ 
+Bjørnsten, Thomas: »Making Sense of Data: Understanding Digital Reality through Contemporary Artistic Practices of Sonification». In: World Forum for Acoustic Ecology : WFAE News Quarterly. OctoberHDecember, vol. 11, no. 4., 2014. (link). 
+ 
+Bjørnsten, Thomas: “From Particle Data to Particular Sounds: Reflections on the Affordances of Contemporary Sonification Practices” in: Journal of Sonic Studies, vol. 10, 2015. 
+ 
+Højlund, M., & Riis, M. (2015). ”Wavefront Aesthetics H Attuning to a dark ecology”. Organised Sound, 20 (Special Issue 02), 249H262. 
+ 
+Højlund, M. & Kinch, Sofie (2014). ”Alarming Atmospheres H Embodied Sound habituation as design strategy in a neuroHintensive care unit”. Journal of Sonic Studies 06, 2014, (1). 
+(http://journal.sonicstudies.org/vol06/nr01/a02) 
+ 
+Riis, M. (2015). ”Where are the Ears of the Machine? H Towards a sounding microHtemporal objectHoriented ontology”. Journal of Sonic Studies 10(1). 
+ 
+Riis, M. (2013). ”The media archaeological repairman. Organised Sound”,18(3), 255 H 265. 

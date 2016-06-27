@@ -41,7 +41,12 @@
 
 
 
-    .article{ 
+    .article{  position:relative;
+    	      .page{
+    	      	    clear:both;
+             border-width: 20px;
+             border-style: solid;
+    	      }
 
 
               	 width: auto;
@@ -62,14 +67,16 @@
 
 	.imagestart{
 		        float: none;
-		        width: 130.1%;
+		        width: 130.2%;
 		        page-break-after: always; 
+		        page-break-before: always;
 			   }
 
 	.imageend{ 
+		      page-break-after: always;
 		      page-break-before: always;
 		      float: none;
-		  	  width: 130.1%; 
+		  	  width: 130.2%; 
  			}	              
     
 
