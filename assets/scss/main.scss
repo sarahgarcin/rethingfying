@@ -15,9 +15,6 @@
       font-size: $soustitre;
      }
 
-
-
-
 // S T R U C T U R E
 @media screen {
 
@@ -44,7 +41,7 @@
       }
 
 
-  .coverbreak-after {
+  .cover {
                       position:relative;
                       .titre{
                              padding-left: 40px;
@@ -71,7 +68,7 @@
 
 @media all {
 
-  .coverbreak-after {
+  .cover{
                       .titre{
                              position: absolute;
                              top: 50%;

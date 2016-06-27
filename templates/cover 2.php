@@ -1,28 +1,27 @@
 <!-- Champs spécifiques -->
-<?php $subtitle = a::get($content, 'subtitle', 'undefined'); ?>
-
 <div class="cover2break-after">
 
   
 
     <div class="titre">
-      <?php echo $Parsedown->text($titre);?>
+      <?php echo $Parsedown->text($page->titre);?>
     </div>
 
 
     <div class="sous-titre">
-      <?php echo $Parsedown->text($subtitle);?>
+      <?php echo $Parsedown->text($page->subtitle);?>
     </div>
      
     <div class="row">  
       <div class="text small-6 columns">
-            <?php echo $Parsedown->text($text);?>
+            <?php echo $Parsedown->text($page->text);?>
       </div>
     </div>
 
     <div class="image">
-    	<!--  faire une classe php pour cleaner tout ça - un truc qui retourne $image->url() par ex -->
-    	<img src="<?php echo 'content/'.$folder.'/'.$imagearray[0] ?>" alt="">
+      <?php foreach($page->images() as $image){ ?>
+        <img src="<?php echo $image['url']?>" alt="$image['file']">
+      <?php } ?>
     </div> 
   
 

@@ -1,51 +1,34 @@
-<?php $color = a::get($content, 'color', 'undefined'); ?>
-<?php $imagestart = a::get($content, 'imagestart', 'undefined'); ?>
-<?php $imageend = a::get($content, 'imageend', 'undefined'); ?>
+  <div class="article" data-color="<?php echo $page->color?>">
+    <?php if(isset($page->imagestart)){ ?>
+      <div class="imagestart" >
+        <img src="<?php echo 'content/'.$folder.'/'.$page->imagestart ?>" alt="">
+      </div>
+    <?php } ?>
 
-
-  <div class="article" data-color="<?php echo $color?>">
-
-
-   <?php if($imagestart != 'undefined'): ?>
-
-        <div class="imagestart" >
-              <img src="<?php echo 'content/'.$folder.'/'.$imagestart ?>" alt="">
-        </div>
-
-   <?php endif ?>
- 
     <div class="contenu" >
 
-        <div class="titre">
-          <?php echo $Parsedown->text($titre);?>
-        </div>
+      <div class="titre">
+        <?php echo $Parsedown->text($page->titre);?>
+      </div>
 
       <div class="row">
 
-    
-          <div class="text small-6 columns">
-            <?php echo $Parsedown->text($text);?>
-          </div>
-           
-        
-        
-          <div class="gallerie small-6 columns">
-          	<?php foreach($imagearray as $image){?>
-          			<img src="<?php echo 'content/'.$folder.'/'.$image ?>" alt="">
-          	<?php } ?>
-          </div>
-
-      </div>
-
-    </div>
-  
-     <?php if($imageend != 'undefined'): ?>
-
-        <div class="imageend">
-              <img src="<?php echo 'content/'.$folder.'/'.$imageend ?>" alt="">
+        <div class="text small-6 columns">
+          <?php echo $Parsedown->text($page->text);?>
         </div>
-     <?php endif ?>
 
+        <div class="gallerie small-6 columns">
+          <?php foreach($page->images() as $image){
+            //echo $image['file']."</br>";
+            //echo $image['url']."</br>";?>
+            <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['file'] ?>">
+          <?php } ?>
+        </div>
+      </div>
     </div>
 
-  </div>
+    <?php if(isset($page->imageend)){ ?>
+      <div class="imageend" >
+        <img src="<?php echo 'content/'.$folder.'/'.$page->imageend ?>" alt="">
+      </div>
+    <?php } ?>

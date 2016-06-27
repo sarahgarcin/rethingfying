@@ -6,6 +6,8 @@ header: ceci est un header
 ----
 color: #F15A29
 ----
+imagestart:
+----
 imageend:photos/L1000673.jpg
 ----
 imagestart: photos/L1000667.jpg

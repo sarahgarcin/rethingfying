@@ -1,23 +1,22 @@
 <!-- Champs spécifiques -->
-<?php $subtitle = a::get($content, 'subtitle', 'undefined'); ?>
+<div class="cover break-after">
+<!-- 
+    <?php foreach($page->images() as $image){
+        //echo $image['file']."</br>";
+        echo $image['caption']."</br>";?>
+        <img src="<?php echo $image['url'] ?>" alt="">
+    <?php } ?>
 
-<div class="coverbreak-after" >
-
-
-
-    <div class="imagecouv" >
-    	<!--  faire une classe php pour cleaner tout ça - un truc qui retourne $image->url() par ex -->
-    	<img src="<?php echo 'content/'.$folder.'/'.$imagearray[0] ?>" alt="">
+ -->
+    <div class="imagecouv">
+    	<?php foreach($page->images() as $image){
+            //echo $image['file']."</br>";
+            // echo $image['caption']."</br>";?>
+            <img src="<?php echo $image['url'] ?>" alt="">
+        <?php } ?>
     </div> 
 
-    <div class="titre" >
-      <?php echo $Parsedown->text($titre);?>
+    <div class="titre">
+      <?php echo $Parsedown->text($page->titre);?>
     </div>
-
-
-    <div class="sous-titre">
-      <?php echo $Parsedown->text($subtitle);?>
-    </div>
-  
-
 </div>
