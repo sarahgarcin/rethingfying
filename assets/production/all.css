@@ -6,13 +6,13 @@
 @media print {
   .blank-page {
     height: 26cm; }
-  .coverbreak-after {
+  .cover {
     margin: 0;
     float: none;
     page-break-after: always; }
-    .coverbreak-after .imagecouv {
+    .cover .imagecouv {
       width: 130.1%; }
-    .coverbreak-after .titre {
+    .cover .titre {
       font-family: "share";
       font-size: 25pt;
       line-height: 26pt;
@@ -54,7 +54,7 @@
     page-break-before: always;
     float: none;
     width: 130.2%; }
-  .cover2break-after {
+  .cover2 {
     page-break-before: always; } }
 
 meta.foundation-version {
