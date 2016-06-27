@@ -1361,6 +1361,8 @@ h2 {
   font-size: 28px; }
 
 @media screen {
+  .introduction .gallerie {
+    max-width: 50%; }
   .introduction .titre {
     font-size: 1.5em;
     line-height: 1em;

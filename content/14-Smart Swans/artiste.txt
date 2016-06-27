@@ -9,7 +9,7 @@ color: #92278F
 imagestart: photos/L1000696.jpg
 
 ----
-text:###Alison Powell
+text:##Alison Powell
 
 ##Sensing Feral Cities
 LSE Data and Society

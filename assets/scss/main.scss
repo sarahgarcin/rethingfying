@@ -22,11 +22,13 @@
 @media screen {
 
     .introduction {
+                   .gallerie{
+                              max-width: 50%;
+                            }
                    .titre{font-size: 1.5em;
                           line-height: 1em;
                           padding-left:40px;
                         }
- 
                 }
 
   .contenu{
@@ -38,7 +40,7 @@
           }
 
   .text{ font-size: $taille-text;
-       padding-left: 50px;
+         padding-left: 50px;
       }
 
 

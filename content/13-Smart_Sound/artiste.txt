@@ -13,7 +13,7 @@ imageend: photos/L1000689.jpg
 text: 
 
 ##Attunement and Vibrations in the Smart City 
-###Thomas Bjoernsten
+##Thomas Bjoernsten
 by DesigningSense.dk 
 
 Who: A group of practice based and theoretical researchers from Aarhus University withdifferent backgrounds in Sound Studies, Musicology, Audio Design, Visual Culture andAesthetics. (http://designingsense.dk) 

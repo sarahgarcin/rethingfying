@@ -12,7 +12,7 @@ imagestart: photos/L1000681.jpg
 imageend: photos/L1000685.jpg
 ----
 text: 
-###Claudia Göbel 
+##Claudia Göbel 
 
 I’m approaching sensor-based smart-city infrastructure through a citizen science lens and here from the angle of metadata and data standardization. I’m especially concerned with the social infrastructure of citizen science projects, and citizen science communities in Europe. I work for the European Citizen Science Association (ECSA) that seeks to build a network of citizen science project organizers for the exchange of good practice, joint projects and advocacy for CS in European research policy. As such, the association can be seen as one part, albeit a remote or meta one, of the sensor-based smart-city infrastructure. My interest is to explore ways to make this community of practice more inclusive so it can work as an amplifier for the diversity of voices in citizen science. I could contribute a ppt presenting the association’s aims, structure, history and work.
 

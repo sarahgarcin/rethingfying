@@ -12,7 +12,7 @@ imageend: photos/L1000695.jpg
 ----
 
 text:
-###Janhenning Raff
+##Janhenning Raff
 
 I teach graphic design in Berlin. All work shown here is from undergraduate students within the course Graphic Design in Space.
 

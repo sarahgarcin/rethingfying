@@ -11,7 +11,7 @@ imagestart: photos/L1000692.jpg
 imageend: photos/L1000696.jpg
 ----
 text: 
-###Gabriele Schliwa
+##Gabriele Schliwa
 
 I am joining this workshop based on my PhD interest in smart city governance as well as contributor to Things Manchester. Things Manchester is part of The Things Network founded in Amsterdam and aims to create a crowdsourced, open and free IoT data infrastructure. Sensor-based smart-city infrastructure is a critical component which is generally owned and operated by large telecommunication providers. We believe the Internet of Things should be for everyone and if it is going to be a revolution then everyone should have the opportunity to participate. Inexpensive long-range technology (LoRaWAN) is now available that can help us create an open and free network covering the rural and urban areas of Greater Manchester, and the 2.8 million people who live and work here. By building the network we will enable people and organisations to innovate and build stuff that will have benefit for themselves and their communities.
 
