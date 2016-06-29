@@ -4,11 +4,11 @@ titre:
 ----
 header: ceci est un header
 ----
-color: #C1991A
+color: #FFF200
 ----
-imagestart: photos/L1000694.jpg
+imagestart: photos/L1000676.jpg
 ----
-imageend: photos/L1000695.jpg
+imageend: photos/L1000681.jpg
 ----
 
 text:

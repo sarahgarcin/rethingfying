@@ -4,11 +4,11 @@ titre:
 ----
 header: ceci est un header
 ----
-color: #7F591C
+color: #0404BC
 ----
-imagestart: photos/L1000692.jpg
+imagestart: photos/L1000680.jpg
 ----
-imageend: photos/L1000696.jpg
+imageend: photos/L1000677.jpg
 ----
 text: 
 ##Gabriele Schliwa
