@@ -27,13 +27,5 @@ Their integration seems rational due to an impressive rhetoric that binds togeth
 signals), while simultaneously it feeds back data on all attached technologies to the user and utility through an in-house display. But also Intelligent Energy Storage Systems that manage a host of technologies known as balance of system technologies, while simultaneously interfacing with utilities or other third parties for ancillary services based on network status and congestion.
 It is the slightly dumber technologies that are of interest to me in this workshop. Those that are captured, aggregated, and controlled by the deep smart platforms that are essential to an efficient household. Together the lightbulbs, tv's, and motion sensor are becoming the extension of the material infrastructures as they are recognized and instrumentalized by the upstream management systems.
 
-While my own research is not practice based. For this workshop it would be interesting to see if it
-possible if there are ways to mask the load profiles of dumb technologies both in terms of energy
-management and business management systems and make them dynamic. This could just mean
-attaching a separate controllable load bearing entity to the appliance that gives of a volatile load
-profile and therefor distorts the normal sequence of events and simultaneously connecting to the
-stream of data that flows to the management system through an application such as Wireshark and
-manipulate the communications. Micro actions as such would make devices hard to index
-comprehensively and difficult to account for by the distributed depths of the parallel operating
-cloud based databases, while it would still allow for the end-user to tap into the value streams by
-changing their consumption based on downstream signals.
+While my own research is not practice based. For this workshop it would be interesting to see if it possible if there are ways to mask the load profiles of dumb technologies both in terms of energy management and business management systems and make them dynamic. This could just mean attaching a separate controllable load bearing entity to the appliance that gives of a volatile load profile and therefor distorts the normal sequence of events and simultaneously connecting to the stream of data that flows to the management system through an application such as Wireshark and manipulate the communications. Micro actions as such would make devices hard to index
+comprehensively and difficult to account for by the distributed depths of the parallel operating loud based databases, while it would still allow for the end-user to tap into the value streams by changing their consumption based on downstream signals.
