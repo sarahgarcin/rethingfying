@@ -5,11 +5,11 @@ titre:
 header: 
 ##Claudia Göbel 
 ----
-color: #6EE0D2
+color: #00A79D
 ----
-imagestart: photos/L1000681.jpg
+imagestart: photos/L1000695.jpg
 ----
-imageend: photos/L1000685.jpg
+imageend: photos/L1000692.jpg
 ----
 text: 
 ##Claudia Göbel 
