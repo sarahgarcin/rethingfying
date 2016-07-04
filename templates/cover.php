@@ -8,11 +8,11 @@
     <?php } ?>
 
  -->
-    <div class="imagecouv">
+    <div class="imagecouv small-6">
     	<?php foreach($page->images() as $image){
             //echo $image['file']."</br>";
             // echo $image['caption']."</br>";?>
-            <img src="<?php echo $image['url'] ?>" alt="">
+            <img src="<?php echo $image['url'] ?>" alt="couverture">
         <?php } ?>
     </div> 
 

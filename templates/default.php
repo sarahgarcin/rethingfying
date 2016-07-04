@@ -1,6 +1,6 @@
-<div class="article">
+<div class="article row">
 	<?php if(isset($page->titre)){ ?>
-	  <div class="titre">
+	  <div class="titre small-4 small-push-1">
 	    <?php echo $Parsedown->text($page->titre);?>
 	  </div>
   <?php } ?>

@@ -5,7 +5,8 @@ header: Sune Fredskild
 ----
 color: #27AAE1
 ----
-
+imagestart:photos/L1000676.jpg
+----
 imageend:photos/L1000676.jpg
 ----
 text: 

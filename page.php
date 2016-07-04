@@ -30,10 +30,11 @@ class page{
         if(file_exists('content/'.$this->page.'/'.$file.'.txt')):
 	        $content = data::read('content/'.$this->page.'/'.$file.'.txt', 'md');
 					foreach($content as $key => $caption){
-			      // print($caption);
-			      $imagearray[] = array('file'=>$file, 'url'=>'content/'.$this->page.'/'.$file, 'caption'=>$caption);
+			      $captionarray[$key] = $caption;
 			    }
+			    $imagearray[] = array('file'=>$file, 'url'=>'content/'.$this->page.'/'.$file, 'captions'=>$captionarray);
         	$this->images = $imagearray;
+        	// print_r($imagearray);
         else:
         	$imagearray[] = array('file'=>$file, 'url'=>'content/'.$this->page.'/'.$file);
         	$this->images = $imagearray;

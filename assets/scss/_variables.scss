@@ -1,17 +1,33 @@
 $pageHeight: 26cm;
 $page-width: 20cm;	
 
-
 $font-titre:'share';
-$taille-titre: 60px;
-$soustitre: 28px;
-$couleur-titre: #FFFFFF;
-
-$font-text: 'volkorn';
-$taille-text: 1.25em;
-
+$font-text: 'vollkorn';
 
 $marge-gauche: 107px;
 $marge-droite: 400px;
 
+@mixin text60 {
+  font-size:  60px;
+  font-size: 3.75rem;
+  line-height: 1.2;
+}
+
+@mixin text28 {
+  font-size:  28px;
+  font-size: 1.75rem;
+  line-height:  1.3125;
+}
+
+@mixin text32 {
+  font-size:  32px;
+  font-size: 2rem;
+  line-height:  1.3125;
+}
+
+@mixin text20 {
+  font-size:  20px;
+  font-size:  1.25rem;
+  line-height:  1.29;
+}
 
