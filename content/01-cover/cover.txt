@@ -1,8 +1,5 @@
 titre: 
-#Re-
-#Thingifying 
-#The Smart 
-#City
+#Dustbox Logbook
 ----
 subtitle: 
 ----

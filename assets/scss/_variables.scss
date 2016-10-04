@@ -8,8 +8,8 @@ $marge-gauche: 107px;
 $marge-droite: 400px;
 
 @mixin text60 {
-  font-size:  60px;
-  font-size: 3.75rem;
+  font-size:  100px;
+  font-size: rem-calc(100);
   line-height: 1.2;
 }
 

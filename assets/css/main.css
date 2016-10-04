@@ -1350,18 +1350,6 @@ td,
 th {
   padding: 0; }
 
-html {
-  box-sizing: border-box; }
-
-*, *:before, *:after {
-  box-sizing: inherit; }
-
-::-moz-selection {
-  background: rgba(151, 151, 151, 0.25); }
-
-::selection {
-  background: rgba(151, 151, 151, 0.25); }
-
 body {
   background-color: #FFF;
   color: #000;
@@ -1382,10 +1370,14 @@ ul {
   ul li {
     list-style: none; }
 
+img {
+  width: 100%; }
+
 .titre {
   font-family: "share";
-  font-size: 60px;
-  font-size: 3.75rem;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-size: 6.25rem;
   line-height: 1.2; }
 
 .text {
@@ -1407,21 +1399,19 @@ h2 {
   margin-right: 0.9375rem; }
 
 .cover {
-  position: relative; }
+  height: 100vh; }
   .cover .titre {
     position: absolute;
-    top: 40%;
-    -webkit-transform: translateY(-40%);
-    -ms-transform: translateY(-40%);
-    transform: translateY(-40%);
-    left: 60%; }
+    top: 0; }
     .cover .titre h1 {
-      font-size: 60px;
-      font-size: 3.75rem;
-      line-height: 1.2;
-      color: #000;
-      border-bottom: 7px solid #000;
-      margin: 0; }
+      margin: 0;
+      font-weight: normal; }
+  .cover .imagecouv {
+    position: relative;
+    padding: 3.125rem; }
+
+.gallerie li {
+  padding-top: 40px; }
 
 .gros-text p {
   margin-top: 40px;
@@ -1441,9 +1431,6 @@ h2 {
 .contenu {
   clear: both;
   border: 20px solid #000; }
-
-.gallerie li {
-  margin: 30px 0; }
 
 @media screen {
   .contenu .titre {

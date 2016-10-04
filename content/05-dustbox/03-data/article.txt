@@ -1,0 +1,28 @@
+title: Dustbox Data
+----
+text: 
+VIEWING DATA AND SETTING UP STREAMS
+1. Once you have setup your Dustbox with the Electric Imp connection, you can view the data that your sensor is sending to the platform at http://dustbox-streams.citizensense.net. 
+
+2. To view your stream, click ‘Explore’ and then on the next page select your Dustbox stream number (e.g., Dustbox 8, also noted in your logbook, and on your box). You should see particle counts and the time the data is sent on this page.
+
+3. To edit your stream, you can click the ‘Manage’ button on the upper right-hand side of the page, and enter the private key provided with your Dustbox.
+
+4. Once you have added your private key, click ‘Edit’. In the ‘Edit Stream’ page, you can add a description of your stream, make your data visible or hidden, and change the location of your device from a drop-down menu, which will automatically plot your location to a map available on the Airsift platform.
+
+5. To view your data on a map on the Airsift platform, or to plot graphs of your data, you can go to http://www.citizensense.net/airsift-dust-box. First, select your stream (e.g., Dustbox 8) from the drop-down menu. Then, select the type of graph or plot you would like to generate. 
+
+6. Next, set your time period and mean, and choose a weather condition if desired. The weather data is sourced from Weather Underground data for the area.
+
+7. Press “enter” and in a few moments your graph will plot beneath the drop-down menus (please note the advice on the terms of use for the data at the bottom of the page).
+
+8. You may wish to save plots and graphs that you generate, or download your data. You can do this by clicking ‘Download plot’ or ‘Download csv’.
+
+9. We recommend that you collect a dataset for 30 days as a minimum, but you might wish to collect data for a longer period. We anticipate that we will keep the Dustboxes in circulation for a period of 6 months, up until April 2017.
+
+10. For examples of how the plots and graphs can be assembled together along with observations and images, see datastories.citizensense.net as a previous example of how we worked with citizens to create new forms of evidence from their data.
+
+11. If you have any ideas about how you would like to assemble your data, or you would like to work with us to generate a data story, drop a line at info@citizense.net!
+
+
+

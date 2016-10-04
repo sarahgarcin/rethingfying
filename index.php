@@ -19,6 +19,7 @@
   include 'libs/Parsedown.php'; 
   $Parsedown = new Parsedown();
   include("page.php");
+  include("subpage.php");
   ?>
 
 
@@ -36,6 +37,16 @@
     foreach ($folders as $folder){
       $page = new page($folder);
 
+      if("content/".$folder){
+        $subfolders = dir::read("content/".$folder);
+        // print_r($subfolders);
+        foreach ($subfolders as $subfolder){
+          $subpage = new subpage($folder.'/'.$subfolder);
+          // print_r($subpage);
+          // $template = $subpage->template();
+        }
+      }
+     
       $template = $page->template();
       $templatePath = 'templates/'.$template.'.php';
       // Choisi le bon template suivant le nom du fichier

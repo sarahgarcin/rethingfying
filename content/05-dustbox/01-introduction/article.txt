@@ -1,0 +1,15 @@
+title:Dustbox Overview
+----
+text: The Dustbox is a particulate matter sensor designed by Citizen Sense specifically to undertake “urban sensing” in Deptford, New Cross and Greenwich.
+
+The Dustbox measures small particles between 1 to 2.5 micrometers (μm), which are effectively designated as particulate matter 2.5 (PM2.5) for this research in order to compare readings to official air quality guidance. 
+
+Particulate matter, especially within the smaller and ultra fine ranges, has been demonstrated to have numerous short- and long-term health effects, including asthma, shortness of breath, and respiratory, pulmonary and cardiac problems. The average adult breathes around 3,000 gallons of air per day, and so considerable amounts of environmental pollutants can pass through bodies.
+
+Particulate matter consists of soot, dirt, dust, pollen, mould, and carbon to which volatile organic compounds have adhered. These particles can come from trees and soil, as well as automobiles, buildings, industrial activities, and many forms of combustion. The Dustbox shapes refer to these different types of particulates, which when viewed under intensive electron microscopes, resemble the Dustbox forms that we have had 3D printed in black ceramic.
+
+The Dustboxes have been calibrated in relation to the London Air Quality Network (LAQN) and DEFRA Air Quality Observatory reference monitors at Marleybone Road. We have worked with atmospheric scientists at King’s College London to undertake the calibration process, and we have also tested all of the Dustboxes at Goldsmiths to compare and adjust values across the devices.
+
+For more information on particulate matter, please refer to the ‘Resources’ section at the end of this logbook.
+
+

@@ -1,0 +1,18 @@
+titre:Mapping and Walking
+----
+color: #27AAE1
+----
+imagestart:
+----
+imageend:
+----
+text: During the workshop and walk that we are hosting on Saturday 29 October 2016 in Deptford, we will map key sites where people would like to monitor, and we will also take a short walk of some of these sites in order to assess where and how to monitor the outdoor environment.
+
+Included here is a map we have developed of key development and construction sites in the Deptford, New Cross and Greenwich areas. This map is also available on our Airsift Dustbox Data Analysis Toolkit website at http://www.citizensense.net/airsift-dust-box.
+
+As noted in the Dustbox Data section of the logbook, you can edit the location assigned to your device, and this will change how your Dustbox shows up on the map.
+
+We will be adding mapping functionality to the Airsift Dustbox tool as people add their devices to the map. Further instructions on how to use the mapping tool will also be provided on the Airsift Dustbox page (http://www.citizensense.net/airsift-dust-box).
+
+You might also like to develop a walking itinerary of your own that passes by key pollution hotspots. You can submit your suggestion to us at info@citizensense.net and we will add your suggested walk to our website.
+

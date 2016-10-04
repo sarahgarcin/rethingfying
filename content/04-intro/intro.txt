@@ -1,0 +1,35 @@
+titre: Introduction
+----
+text: 
+
+Hello and thanks for contributing to this research project. The Citizen Sense project investigates how people monitor their environments, especially using digital technologies. We hope to better understand how residents in Deptford, New Cross and Greenwich monitor their environments, particularly for air pollution. 
+
+Jennifer Gabrys leads the Citizen Sense project, which is based in the Sociology department at Goldsmiths, University of London, and is funded through the European Research Council (ERC). Our research group is made up of two additional members, including Helen Pritchard ad Lara Houston, along with a wide range of consultant collaborators, who all together have a broad range of expertise, including science and technology studies, digital technology, environmental studies and creative practice.
+
+We have an approach that emphasises research through participation. Our working process is to collaborate with you to identify monitoring concerns and sites, and through a conversation, to test sensors and analyse data. We are interested in more than technology, and we would like to think about the types of practices, ways of organising, and approaches to using data that could develop along with the monitoring technologies that you use. The Dustbox monitors we have made are new and exploratory. As a result, you will be testing new devices, and you will have the chance to tell us what works, what doesn’t, and what could be better or different. 
+
+To begin the monitoring process, we are hosting an initial workshop in Deptford 29 October 2016 where we will introduce the Dustbox particulate matter sensors that we have made. We will also discuss where participants would like to monitor, and then go on a brief walk of the area to look at key sites of concern. There will be up to 30 Dustboxes in circulation from 29 October 2016 to April 2017, with checkouts and returns of the devices available from the Deptford Lounge. 
+
+You will find instructions for how to setup, use and maintain your Dustbox in this logbook, as well as instructions for how to view your data, and spaces for recording your environmental observations, together with additional resources on air pollution and air quality.
+
+If you choose to document your observations in this logbook, we would be delighted to receive your logbook when you have finished monitoring. This will allow us to compare your observations to the sensor data over time. Instructions on how to return your materials are provided in the latter part of this logbook under ‘Dustbox Returns’. 
+
+You may also choose to provide your data and observations anonymously, or to be credited for your materials. If you refer to the ethics form provided with this logbook, you will see that you can choose which form of identification or anonymity you prefer. As the ethics form also notes, all of your material will be held safely and confidentially in our office in London, and you can withdraw from the research at any time. 
+
+If you have any questions, please feel free to contact us at info@citizensense.net. For more information on our project, please see citizensense.net, and follow us on twitter at @citizen_sense. 
+
+We look forward to working with you and hearing more about your experiences of air quality in Deptford, New Cross and Greenwich. 
+
+Jennifer Gabrys Department of Sociology, Goldsmiths, University of London New Cross, London SE14 6NW, United Kingdom 
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -6,21 +6,6 @@
 @import "../../bower_components/foundation/scss/foundation/components/grid";
 @import "../../bower_components/foundation/scss/normalize.scss";
 
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-
-::-moz-selection {
-    background: rgba( 151, 151, 151, 0.25);
-}
-::selection {
-    background: rgba( 151, 151, 151, 0.25);
-}
-
 // start
 body {
   background-color: #FFF;
@@ -42,8 +27,11 @@ ul{
   }
 }
 
+img{width:100%;}
+
 .titre{ 
   font-family: $font-titre;
+  text-transform: uppercase;
   @include text60;
 }
 
@@ -65,24 +53,21 @@ h2 {
 }
 
 .cover{
-  position:relative;
-  .imagecouv{
-
-  }
+  height: 100vh;
   .titre{
+    h1{margin:0;font-weight:normal;}
     position:absolute;
-    top: 40%;
-    -webkit-transform: translateY(-40%);
-    -ms-transform: translateY(-40%);
-    transform: translateY(-40%);
-    // padding-left: 40px;
-    left: 60%;
-    h1{
-      @include text60;
-      color: #000;
-      border-bottom: 7px solid #000;
-      margin:0;
-    }
+    top:0;
+  }
+  .imagecouv{
+    position:relative;
+    padding: rem-calc(50);
+  }
+}
+
+.gallerie{
+  li{
+    padding-top: 40px; 
   }
 }
 
@@ -108,11 +93,11 @@ h2 {
   border: 20px solid #000;
 }
 
-.gallerie{
-  li{
-    margin: 30px 0;
-  }
-}
+// .gallerie{
+//   li{
+//     margin: 30px 0;
+//   }
+// }
 
 @media screen {
   .contenu{

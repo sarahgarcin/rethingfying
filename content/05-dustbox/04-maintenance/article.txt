@@ -1,0 +1,46 @@
+How to Use and Take Care of Your Dustbox, Including Safety Advice
+
+In addition to setting up your Dustbox and viewing your data, you will want to consider a few additional points when using and maintaining your device, including:
+
+1. When identifying where to site your Dustbox, you will want to take note of your environment and select a location where you are wondering about likely pollution levels. Or you might like to establish general levels of air pollution away from obvious emission sources. Consider what you want to monitor, and the best location for monitoring this activity.
+
+2. Once you have decided where to site your Dustbox, carry out a pre-installation inspection of the monitoring site to ensure its suitability for locating the Dustbox.
+
+3. Select a location that is outdoors but sheltered and out of the rain, wind and elements. Before winds or rain occur, ensure the equipment is secure in the event of extreme weather activity.
+
+4. Ensure that air flow is able to reach the sensor by locating it away from obstructions. Place the device away from the ground and building surfaces (by approximately 1 meter distance).
+
+5. Avoid installing the Dustbox in areas that are difficult to access or present health and safety hazards, and choose a location that is free from slip or trip hazards.
+
+6. Do not place the Dustbox at height or in a location where it could fall and injure passersby. 
+
+7. If you have placed the Dustbox in an area of expected elevated pollution activity, minimise prolonged exposure by spending only short periods of time near the monitoring area. 
+
+8. If you place the Dustbox close to a roadside, take precautions and set the device back from the road to minimise risk from traffic.
+
+9. To minimise risk from road traffic, do not walk along the road while using monitoring kit or while looking at the website collecting data from the devices.
+
+10. When installing your Dustbox, be sure to tape down any ground-level cables to minimise trip hazards.
+
+11. While the Dustbox is a low-power device, you should use an electric circuit breaker to minimise the risk of shock.
+
+12. Only plug the Dustbox in or out when it is dry outdoors.
+
+13. Regularly visually inspect the Dustbox to ensure it has not been damaged and there are no obvious defects.
+
+14. In the event that dust or bugs get lodged in your sensor, you can power off the device, open the ceramic case at the centre, and spray the sensor opening with canned air. If you have any questions about how to do this, please contact info@citizensense.net.
+
+15. While you will need to access the Electric Imp to set up the wifi and to spray out the sensor, you should avoid dismantling the electronics as this could present a risk of shock, and could interfere with the measurement functioning of the device.
+
+16. Ensure the Dustbox is maintained and in a good state of repair when it is given to you. If it is not, you can return it to the Deptford Lounge or contact us at info@citizensense.net.
+
+17. Please note that by taking a Dustbox, you agree to take care of your kit and return it to us when requested. More information on how to return your device is available in the section, ‘Dustbox Returns’.
+
+18. If you are concerned about any changes in the equipment, please contact Citizen Sense at info@citizensense.net.
+
+Note
+We may add to this safety guide over time. Please refer to our website for the latest guidelines at http://www.citizensense.net/projects/urban-sensing/dustbox-safety-guide.
+
+
+
+

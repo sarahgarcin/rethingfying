@@ -1,22 +1,12 @@
 <!-- Champs spécifiques -->
 <div class="cover break-after">
-<!-- 
-    <?php foreach($page->images() as $image){
-        //echo $image['file']."</br>";
-        echo $image['caption']."</br>";?>
-        <img src="<?php echo $image['url'] ?>" alt="">
-    <?php } ?>
+    <ul class="imagecouv small-12">
+    	<?php foreach($page->images() as $image){?>
+        <li class="small-2 end columns"><img src="<?php echo $image['url'] ?>" alt="couverture"></li>
+      <?php } ?>
+    </ul> 
 
- -->
-    <div class="imagecouv small-6">
-    	<?php foreach($page->images() as $image){
-            //echo $image['file']."</br>";
-            // echo $image['caption']."</br>";?>
-            <img src="<?php echo $image['url'] ?>" alt="couverture">
-        <?php } ?>
-    </div> 
-
-    <div class="titre">
+    <div class="titre small-10 small-push-1">
       <?php echo $Parsedown->text($page->titre);?>
     </div>
 </div>
