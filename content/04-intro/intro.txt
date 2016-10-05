@@ -1,5 +1,11 @@
 titre: Introduction
 ----
+color: rgb(86,103,110)
+----
+imagestart:
+----
+imageend:imageend/Kit_Calibr-bleu.jpg
+----
 text: 
 
 Hello and thanks for contributing to this research project. The Citizen Sense project investigates how people monitor their environments, especially using digital technologies. We hope to better understand how residents in Deptford, New Cross and Greenwich monitor their environments, particularly for air pollution. 

@@ -1,12 +1,12 @@
-titre:Dustbox
+titre:Dust-<br>box
 ----
-color: #27AAE1
+color: rgb(171,145,113)
 ----
 imagehead: Pollen_2_clear.jpeg
 ----
-imagestart:L1010626.JPG
+imagestart:L1010626-bleu.jpg
 ----
-imageend:
+imageend:IMG_3160-bleu.jpg
 ----
 text: 
 

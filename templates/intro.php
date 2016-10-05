@@ -1,10 +1,6 @@
-<div class="introduction">
+<div class="introduction section" data-color="<?php echo $page->color?>">
    
   <div class="row">
-<!--     <div class="titre small-5 small-push-1">
-      <h2><?php echo $page->titre;?></h2>
-    </div> -->
-
     <div class="text small-5 small-push-1 columns">
       <?php echo $Parsedown->text($page->text);?>
     </div>
@@ -17,7 +13,13 @@
       </ul>
     <?php } ?>
 
-   </div>
+  </div>
+
+  <?php if(isset($page->imageend)){ ?>
+    <div class="imagestart small-4 small-push-8" >
+      <img src="<?php echo 'content/'.$folder.'/'.$page->imageend ?>" alt="">
+    </div>
+  <?php } ?>
 
 </div>
 

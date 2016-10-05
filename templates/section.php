@@ -9,62 +9,46 @@
   <div class="content">
 
     <div class="header">
-      <div class="titre">
-        <?php echo $Parsedown->text($page->titre);?>
+      <div class="titre small-10">
+        <h1><?php echo $page->titre;?></h1>
       </div>
       <?php if(isset($page->imagehead)){ ?>
-        <div class="imageHead">
+        <div class="imageHead small-6">
           <img src="<?php echo 'content/'.$folder.'/'.$page->imagehead ?>" alt="">
         </div>
       <?php } ?>
     </div>
 
-    <?php //print_r($subpage->children) ?>
     <?php foreach($subpage->children as $child) { ?>
-      <div class="article">
-        <div class="col small-5 small-push-1 columns">
-          <?php print_r($child->title)?>
+      <div class="article row">
+        <!-- <div class="txt-col small-5 small-push-1 columns"> -->
+        <div class="txt-col small-5 small-push-1 columns">
+          <h2><?php echo $child->titre?></h2>
+          <?php echo $Parsedown->text($child->text);?>
         </div>
-      </div>
-    <?php } ?>
-
-<!--     <div class="contenu" >
-
-          <div class="col-gauche small-5 small-push-1 columns">
-          </div>
-
-          <div class="gallerie small-5 columns">
-            <ul>
-            <?php foreach($page->images() as $image){?>
-              <li class="small-7" >
-                <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['file'] ?>">
-              </li>
-            <?php } ?>
+        <!-- <div class="gallerie small-5 columns"> -->
+        <div class="gallerie small-5 columns">
+          <ul>
+            <?php if(isset($child->images)): ?>
+              <?php foreach($child->images as $image){?>
+                <!-- <li class="small-7" > -->
+                <li class="small-10">
+                  <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['file'] ?>">
+                </li>
+              <?php } ?>
+            <?php endif ?>
             </ul>
           </div>
-        </div>
       </div>
-  </div> -->
-
-  <?php //print_r($subpage) ?>
-  <?php //foreach($subpage as $child) { ?>
-    <?php //print($child) ?>
-  <?php //} ?>
-<!--   <div class="row">
-
-    <div class="text small-5 small-push-1 columns">
-      <?php echo $Parsedown->text($page->text);?>
-    </div>
-
-    <?php if(isset($page->images)){ ?>
-      <ul class="gallerie small-6 columns">
-        <?php foreach($page->images as $image){?>
-          <li><img class="small-10 small-push-1" src="<?php echo $image['url']?>" alt=""></li>
-        <?php } ?>
-      </ul>
     <?php } ?>
+  </div>
 
-   </div> -->
+  <?php if(isset($page->imageend)){ ?>
+    <div class="imagestart small-4 small-push-8" >
+      <img src="<?php echo 'content/'.$folder.'/'.$page->imageend ?>" alt="">
+    </div>
+  <?php } ?>
+
 
 </div>
 

@@ -1,5 +1,6 @@
-How to Use and Take Care of Your Dustbox, Including Safety Advice
-
+titre: How to Use and Take Care of Your Dustbox, Including Safety Advice
+----
+text:
 In addition to setting up your Dustbox and viewing your data, you will want to consider a few additional points when using and maintaining your device, including:
 
 1. When identifying where to site your Dustbox, you will want to take note of your environment and select a location where you are wondering about likely pollution levels. Or you might like to establish general levels of air pollution away from obvious emission sources. Consider what you want to monitor, and the best location for monitoring this activity.

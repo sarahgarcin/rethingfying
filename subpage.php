@@ -49,7 +49,6 @@ class subpage{
         		// print_r($imagearray);
 	        else:
 	        	if(!array_key_exists('images', $this->children[$subfolder])){
-				    	print_r($this->children[$subfolder]);
 				    	$this->children[$subfolder]->{'images'} = array();
 				   	}
 	        	$imagearray[] = array('file'=>$file, 'url'=>'content/'.$this->page.'/'.$subfolder.'/'.$file);

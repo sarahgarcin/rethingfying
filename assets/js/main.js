@@ -7,16 +7,15 @@ $(document).ready(function(){
 function init(){
 
 	// recupérer la couleurs pour les bordures
-	// $(".article").each(function(){
-	// 	var color = $(this).data('color');
-	// 	$(this).find('.contenu').css({
-	// 		"border-color": color
-	// 	});
+	$(".section").each(function(){
+		var color = $(this).data('color');
+		$(this).css({
+			"border-color": color
+		});
 
-	// });
+	});
 
 	$('.imagecouv li').each(function(i){
-		console.log(i);
 		var randomPaddingTop = Math.random() * 30;
 		var randomMarginTop = Math.random() * (50+40) - 40;
 		var randomMarginLeft = Math.random() * 50;

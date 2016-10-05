@@ -1,61 +1,44 @@
 @import url(../font/share/stylesheet.css);
 @import url(../font/volkorn/stylesheet.css);
-@page {
-  size: 20cm 26cm; }
-
 @media print {
+  @page {
+    size: 15cm 21cm;
+    marks: crop; }
+  body {
+    border: 1px solid #000; }
   .blank-page {
-    height: 26cm; }
-  .cover {
-    margin: 0;
-    float: none;
-    page-break-after: always; }
-    .cover .imagecouv {
-      width: 130.1%; }
-    .cover .titre {
-      font-family: "share";
-      font-size: 25pt;
-      line-height: 26pt;
-      color: #FFFFFF;
-      left: 2cm; }
-  .introduction {
-    page-break-after: always; }
-    .introduction .titre {
-      font-size: 20pt;
-      line-height: 24pt;
-      padding-left: 2cm; }
-    .introduction .text {
-      font-size: 16pt;
-      line-height: 18pt;
-      padding-left: 2cm; }
-  .article {
-    position: relative;
-    width: auto; }
-    .article .page {
-      clear: both;
-      border-width: 20px;
-      border-style: solid; }
-    .article .titre {
-      font-size: 25pt;
-      line-height: 27pt;
-      padding-left: 3cm; }
-    .article .text {
-      font-size: 20pt;
-      line-height: 22pt;
-      padding-left: 3cm;
-      padding-right: 2cm; }
-  .imagestart {
-    float: none;
-    width: 130.2%;
-    page-break-after: always;
-    page-break-before: always; }
-  .imageend {
-    page-break-after: always;
-    page-break-before: always;
-    float: none;
-    width: 130.2%; }
-  .cover2 {
-    page-break-before: always; } }
+    height: 21cm; }
+  .cover .titre {
+    font-size: 80px;
+    font-size: rem-calc(80);
+    line-height: 1;
+    word-wrap: break-word; }
+  .cover .imagecouv li {
+    width: 25%; }
+  .small-1 {
+    width: 8.33333%; }
+  .small-2 {
+    width: 16.66667%; }
+  .small-3 {
+    width: 25%; }
+  .small-4 {
+    width: 33.33333%; }
+  .small-5 {
+    width: 41.66667%; }
+  .small-6 {
+    width: 50%; }
+  .small-7 {
+    width: 58.33333%; }
+  .small-8 {
+    width: 66.66667%; }
+  .small-9 {
+    width: 75%; }
+  .small-10 {
+    width: 83.33333%; }
+  .small-11 {
+    width: 91.66667%; }
+  .small-12 {
+    width: 100%; } }
 
 meta.foundation-version {
   font-family: "/5.5.3/"; }
@@ -1376,9 +1359,9 @@ img {
 .titre {
   font-family: "share";
   text-transform: uppercase;
-  font-size: 100px;
-  font-size: 6.25rem;
-  line-height: 1.2; }
+  font-size: 150px;
+  font-size: 9.375rem;
+  line-height: 1; }
 
 .text {
   font-family: "vollkorn";
@@ -1389,29 +1372,31 @@ img {
 .margin-auto {
   margin: auto; }
 
+h1 {
+  margin: 0;
+  font-weight: normal; }
+
 h2 {
   font-family: "share";
-  font-size: 32px;
-  font-size: 2rem;
-  line-height: 1.3125;
-  border-bottom: 4px solid #000;
-  margin-left: 0.9375rem;
-  margin-right: 0.9375rem; }
+  font-size: 60px;
+  font-size: 3.75rem;
+  line-height: 1.2;
+  text-transform: uppercase; }
 
 .cover {
   height: 100vh; }
   .cover .titre {
     position: absolute;
-    top: 0; }
-    .cover .titre h1 {
-      margin: 0;
-      font-weight: normal; }
+    top: 30px;
+    left: 6.6666%; }
   .cover .imagecouv {
     position: relative;
     padding: 3.125rem; }
 
-.gallerie li {
-  padding-top: 40px; }
+.gallerie {
+  margin-bottom: 40px; }
+  .gallerie li {
+    padding-top: 40px; }
 
 .gros-text p {
   margin-top: 40px;
@@ -1428,13 +1413,32 @@ h2 {
 .row {
   max-width: 93.75rem; }
 
-.contenu {
-  clear: both;
-  border: 20px solid #000; }
+.section {
+  border-left: 20px solid #000;
+  border-right: 20px solid #000; }
+  .section .header {
+    position: relative; }
+    .section .header .titre {
+      font-family: "share";
+      text-transform: uppercase;
+      margin-left: 6.66666%;
+      font-size: 150px;
+      font-size: 9.375rem;
+      line-height: 1;
+      word-wrap: break-word; }
+    .section .header .imageHead {
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      z-index: -1; }
+  .section .article {
+    margin-top: 80px; }
+    .section .article p {
+      padding-left: 50px; }
 
 @media screen {
   .contenu .titre {
-    font-size: 32px;
-    font-size: 2rem;
-    line-height: 1.3125;
+    font-size: 60px;
+    font-size: 3.75rem;
+    line-height: 1.2;
     border-bottom: 4px solid #000; } }

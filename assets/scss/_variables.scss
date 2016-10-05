@@ -1,5 +1,5 @@
-$pageHeight: 26cm;
-$page-width: 20cm;	
+$pageHeight: 21cm;
+$page-width: 15cm;	
 
 $font-titre:'share';
 $font-text: 'vollkorn';
@@ -8,9 +8,15 @@ $marge-gauche: 107px;
 $marge-droite: 400px;
 
 @mixin text60 {
-  font-size:  100px;
-  font-size: rem-calc(100);
-  line-height: 1.2;
+  font-size:  150px;
+  font-size: rem-calc(150);
+  line-height: 1;
+}
+
+@mixin h1print {
+  font-size:  80px;
+  font-size: rem-calc(80);
+  line-height: 1;
 }
 
 @mixin text28 {
@@ -20,9 +26,9 @@ $marge-droite: 400px;
 }
 
 @mixin text32 {
-  font-size:  32px;
-  font-size: 2rem;
-  line-height:  1.3125;
+  font-size:  60px;
+  font-size: rem-calc(60);
+  line-height:  1.2;
 }
 
 @mixin text20 {

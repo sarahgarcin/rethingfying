@@ -44,20 +44,20 @@ img{width:100%;}
   margin:auto;
 }
 
+h1{margin:0;font-weight:normal;}
+
 h2 {
   font-family: $font-titre;
   @include text32;
-  border-bottom: 4px solid #000;
-  margin-left: 0.9375rem;
-  margin-right: 0.9375rem;
+  text-transform: uppercase;
 }
 
 .cover{
   height: 100vh;
   .titre{
-    h1{margin:0;font-weight:normal;}
     position:absolute;
-    top:0;
+    top:30px;
+    left: 6.6666%;
   }
   .imagecouv{
     position:relative;
@@ -66,6 +66,7 @@ h2 {
 }
 
 .gallerie{
+  margin-bottom: 40px;
   li{
     padding-top: 40px; 
   }
@@ -86,6 +87,33 @@ h2 {
 
 .row{ 
   max-width: rem-calc(1500);
+}
+
+.section {
+  border-left: 20px solid #000;
+  border-right: 20px solid #000;
+  .header{
+    position: relative;
+    .titre{
+      font-family: $font-titre;
+      text-transform: uppercase;
+      margin-left: 6.66666%;
+      @include text60;
+      word-wrap: break-word;
+    }
+    .imageHead {
+      position: absolute;
+      top: 10%;
+      right:10%;
+      z-index: -1;
+    }
+  }
+  .article{
+    margin-top: 80px;
+    p{
+      padding-left: 50px;
+    }
+  }
 }
 
 // .contenu{

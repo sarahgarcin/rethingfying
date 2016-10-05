@@ -1,92 +1,80 @@
-@page {
-	   size: 20cm  $pageHeight;
-
-      }
-
 @media print {
 
+	@page {
+		size: $page-width $pageHeight;
+		marks: crop;
+	}
+
+	body{
+		border: 1px solid #000;
+	}
+
+
 	.blank-page{
-		        height: $pageHeight;
-	           }
+		height: $pageHeight;
+	}
 
 	.cover{
-		               margin: 0; 
-		               float: none;
-		               page-break-after: always;
-		               .imagecouv{ 
-		               	          width: 130.1%;
-		                         }
-		               .titre{
-		               	      font-family: $font-titre ;
-		               	      font-size: 25pt;
-		               	      line-height: 26pt;
-		               	      color: #FFFFFF;
-		               	      left: 2cm;
-		                     }
-		              }
+		.titre{
+			@include h1print;
+			word-wrap: break-word;
+		}
+		.imagecouv{
+			li{
+				width: 25%;
+			}
+		}
 
-    .introduction{
-    	          .titre{
-    	      	     font-size: 20pt;
-    	      	     line-height: 24pt;
-    	      	     padding-left: 2cm;
-    	             }
-    	       	.text{
-    	       		 font-size: 16pt;
-    	       		 line-height: 18pt;
-    	       		 padding-left: 2cm;
-    	            }
-    	         page-break-after: always;
-                 }
+	}
 
 
+	.small-1 {
+    width: 8.33333%;
+  }
 
-    .article{  position:relative;
-    	      .page{
-    	      	    clear:both;
-             border-width: 20px;
-             border-style: solid;
-    	      }
+  .small-2 {
+    width: 16.66667%;
+  }
 
+  .small-3 {
+    width: 25%;
+  }
 
-              	 width: auto;
-	    	      .titre{
-	    	      	     font-size: 25pt;
-	    	      	     line-height: 27pt;
-	    	      	     padding-left: 3cm;
-	    	             }
-	    	       .text{
-	    	       		 font-size: 20pt;
-	    	       		 line-height: 22pt;
-	    	       		 padding-left: 3cm;
-	    	       		 padding-right: 2cm;
-	    	            }
+  .small-4 {
+    width: 33.33333%;
+  }
 
-            }
+  .small-5 {
+    width: 41.66667%;
+  }
 
+  .small-6 {
+    width: 50%;
+  }
 
-	.imagestart{
-		        float: none;
-		        width: 130.2%;
-		        page-break-after: always; 
-		        page-break-before: always;
-			   }
+  .small-7 {
+    width: 58.33333%;
+  }
 
-	.imageend{ 
-		      page-break-after: always;
-		      page-break-before: always;
-		      float: none;
-		  	  width: 130.2%; 
- 			}	              
-    
+  .small-8 {
+    width: 66.66667%;
+  }
 
-    .cover2{
-    	   				page-break-before: always;
-        			  }
+  .small-9 {
+    width: 75%;
+  }
 
+  .small-10 {
+    width: 83.33333%;
+  }
 
+  .small-11 {
+    width: 91.66667%;
+  }
 
-
+  .small-12 {
+    width: 100%;
+  }
 
 
 }
