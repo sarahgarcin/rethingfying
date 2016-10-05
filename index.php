@@ -36,17 +36,16 @@
     // loop sur tous les dossiers 
     foreach ($folders as $folder){
       $page = new page($folder);
-
-      if("content/".$folder){
-        $subfolders = dir::read("content/".$folder);
-        // print_r($subfolders);
-        foreach ($subfolders as $subfolder){
-          $subpage = new subpage($folder.'/'.$subfolder);
-          // print_r($subpage);
-          // $template = $subpage->template();
-        }
-      }
-     
+      
+      $subpage = new subpage($folder);
+      // $subfolders = dir::read("content/".$folder);
+      // foreach ($subfolders as $subfolder){
+      //   $subpage = new subpage($folder.'/'.$subfolder);
+      //   if($subpage->txtfile != ''){
+      //     $template = $subpage->template();
+      //     //print($subpage->txtfile);
+      //   }
+      // }
       $template = $page->template();
       $templatePath = 'templates/'.$template.'.php';
       // Choisi le bon template suivant le nom du fichier

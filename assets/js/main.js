@@ -7,13 +7,13 @@ $(document).ready(function(){
 function init(){
 
 	// recupérer la couleurs pour les bordures
-	$(".article").each(function(){
-		var color = $(this).data('color');
-		$(this).find('.contenu').css({
-			"border-color": color
-		});
+	// $(".article").each(function(){
+	// 	var color = $(this).data('color');
+	// 	$(this).find('.contenu').css({
+	// 		"border-color": color
+	// 	});
 
-	});
+	// });
 
 	$('.imagecouv li').each(function(i){
 		console.log(i);

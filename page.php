@@ -19,7 +19,7 @@ class page{
 				$this->txtfile = $file;
 				// get the fields from the txt file
 				$content = data::read('content/'.$this->page.'/'.$file, 'md');
-				//return content as key and value - call it $page->nomduchamp dans php
+				//return content as key and value - call it $subpage->nomduchamp dans php
 				foreach($content as $key => $value){
 		      $this->{$key} = $value;
 		    }
