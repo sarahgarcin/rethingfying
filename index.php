@@ -37,7 +37,17 @@
     foreach ($folders as $folder){
       $page = new page($folder);
       
+
       $subpage = new subpage($folder);
+      // echo '<pre>';
+      // print_r($subpage);
+      // echo '</pre>';
+      // foreach($subpage as $child){
+      //   echo '<pre>';
+      //   print_r($child);
+      //   echo '</pre>';
+      // }
+
       // $subfolders = dir::read("content/".$folder);
       // foreach ($subfolders as $subfolder){
       //   $subpage = new subpage($folder.'/'.$subfolder);

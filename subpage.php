@@ -1,29 +1,36 @@
 <?php 
  
 class subpage{ 	
-  
-  var $subpage; //get the children folder
+
+  var $children; //get the children folder
+  var $name;
   var $txtfile; // get the current text file
   var $images;
   var $caption;
   var $template; 
 
 	public function __construct($current_page) { 
-
 		$this->page = $current_page; 
-
+		$this->children = array();
+		//print_r($this);
 		$subfolders = dir::read("content/".$this->page);
     foreach ($subfolders as $subfolder){
+    	$pathSub = "content/".$this->page.'/'.$subfolder;
+    	if(!is_dir($pathSub)) continue;
+    	$this->children[$subfolder] = new StdClass;
+    	$this->children[$subfolder]->name = $subfolder; 
+
 			//get the current text file
-			$files = dir::read("content/".$this->page.'/'.$subfolder);
+			$files = dir::read($pathSub);
 			foreach ($files as $file){
 				if(f::extension($file) == "txt"):
-					$this->txtfile = $file;
+					// get the txt file
+					$this->children[$subfolder]->txtfile = $file;
 					// get the fields from the txt file
 					$content = data::read('content/'.$this->page.'/'.$subfolder.'/'.$file, 'md');
 					//return content as key and value - call it $page->nomduchamp dans php
 					foreach($content as $key => $value){
-			      $this->{$key} = $value;
+			      $this->children[$subfolder]->{$key} = $value;
 			    }
 				endif;
 				// if files are images - add images in an array
@@ -34,12 +41,19 @@ class subpage{
 						foreach($content as $key => $caption){
 				      $captionarray[$key] = $caption;
 				    }
+				    if(!array_key_exists($this->$subfolder, $this->$subfolder->images)){
+				    	$this->children[$subfolder]->images = array();
+				   	}
 				    $imagearray[] = array('file'=>$file, 'url'=>'content/'.$this->page.'/'.$subfolder.'/'.$file, 'captions'=>$captionarray);
-	        	$this->images = $imagearray;
-	        	// print_r($imagearray);
+	        	$this->children[$subfolder]->images = $imagearray;
+        		// print_r($imagearray);
 	        else:
+	        	if(!array_key_exists('images', $this->children[$subfolder])){
+				    	print_r($this->children[$subfolder]);
+				    	$this->children[$subfolder]->{'images'} = array();
+				   	}
 	        	$imagearray[] = array('file'=>$file, 'url'=>'content/'.$this->page.'/'.$subfolder.'/'.$file);
-	        	$this->images = $imagearray;
+	        	$this->children[$subfolder]->images = $imagearray;
 	        endif;
 	      endif;
 			}
@@ -47,16 +61,16 @@ class subpage{
 	} 
   
 	public function name(){
-		return $this->page;
+		return $this->children->name;
 	}
 
 	public function images(){
-		return $this->images;
+		return $this->children->images;
 	}
 
 	public function template(){
-    $this->template = str_replace(".txt", "", $this->txtfile); 
-    return $this->template;
+    $this->children->template = str_replace(".txt", "", $this->txtfile); 
+    return $this->children->template;
 	}
 }
 

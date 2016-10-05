@@ -19,11 +19,11 @@
       <?php } ?>
     </div>
 
-    <?php //print_r($subpage->title) ?>
-    <?php foreach($subpage as $child) { ?>
+    <?php //print_r($subpage->children) ?>
+    <?php foreach($subpage->children as $child) { ?>
       <div class="article">
         <div class="col small-5 small-push-1 columns">
-          <?php //print_r($child)?>
+          <?php print_r($child->title)?>
         </div>
       </div>
     <?php } ?>
