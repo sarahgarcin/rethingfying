@@ -27,9 +27,10 @@ function init(){
 
 	$('.imagecouv li').each(function(i){
 		var randomPaddingTop = Math.random() * 30;
-		var randomMarginTop = Math.random() * (50+40) - 40;
-		var randomMarginLeft = Math.random() * 50;
+		var randomMarginTop = Math.random() * (30+30) - 30;
+		var randomMarginLeft = Math.random() * 30;
 		var imageH = $('.cover').height();
+
 		$(this).css({
 			'padding': randomPaddingTop + randomMarginLeft ,
 			'margin-top' : randomMarginTop

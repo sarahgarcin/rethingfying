@@ -2,15 +2,16 @@ titre : How to Set Up Your Dustbox
 
 ----
 text: 
-SETTING UP THE WIFI CONNECTION
-1. In order to setup the Dustbox, you will first need to download the Electric Imp app to your smartphone. This allows you to setup the wifi connection for the Dustbox. Please note that Windows operating systems are not compatible with the Electric Imp app.
+### SETTING UP THE WIFI CONNECTION
 
-For Android OS, go to:
-https://play.google.com/store/apps/details?id=com.electricimp.electricimp&hl=en_GB
-
-For Apple OS, go to:
+1. In order to setup the Dustbox, you will first need to download the Electric Imp app to your smartphone. This allows you to setup the wifi connection for the Dustbox. Please note that Windows operating systems are not compatible with the Electric Imp app.<br>
+<br>
+For Android OS, go to:<br>
+https://play.google.com/store/apps/details?id=com.electricimp.electricimp&hl=en_GB<br>
+<br>
+For Apple OS, go to:<br>
 https://itunes.apple.com/gb/app/electric-imp/id547133856?mt=8
-
+![image 1](content/05-dustbox/02-setup/illus_10.jpg)
 
 2. Once you have installed the Electric Imp app, sign in to the app with your username and password, which you will have received with the Dustbox.
 
@@ -25,21 +26,20 @@ https://itunes.apple.com/gb/app/electric-imp/id547133856?mt=8
 
 
 6. Blinkup the device by clicking “Start Blinkup.” Similar to the picture on the app,  touch your phone so it is flat and contacts the vertical face of the white card. Be sure to point your phone away from you and do not look at the screen during this phase. 
-
+<br><br>
 Please note the cautionary advice:  
 “Caution: BlinkUp uses flashing light patterns. Please note that a very small percentage of individuals may experience epileptic seizures when exposed to such light patterns or flashing lights. If you have an epileptic condition, consult your physician prior to using this app to configure a device.”
-
+<br><br>
 Hold your phone to the device for the flash phase. Your phone will vibrate when it has completed pairing. You should then receive a message indicating “device is connected.” The card will flash red and orange then start flashing green.   
-
+<br><br>
 You do not need to note down this information, but it indicates that your device has been assigned a unique ID for talking to our platform.
-
+<br><br>
 If your phone does not pair with the Electric Imp the first time and is still flashing orange, you may need to repeat the above steps. If you want to confirm whether your device is connected you can unplug your device and plug it back in again, and if the Electric Imp card flashes through to green this indicates you have a wifi connection. You can also use the “clear device setting” button, flash the device and then repeat the settings. 
-
 
 7. The Dustbox is a very low power device, but if you would like to power off your Dustbox, you can shut this down by unplugging the USB cable. We recommend keeping your Dustbox in continual operation so as to generate a more complete and continuous dataset. 
 
-
-8. If you turn your Dustbox back on again, there is no need to repeat through the above steps, as the device will automatically begin to send data to our platform as long as a wifi connection is available.
+8. 
+If you turn your Dustbox back on again, there is no need to repeat through the above steps, as the device will automatically begin to send data to our platform as long as a wifi connection is available. 
 
 
 Continue reading for instructions on how to view your data, which are provided in the next section.

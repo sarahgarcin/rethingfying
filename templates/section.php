@@ -21,24 +21,29 @@
 
     <?php foreach($subpage->children as $child) { ?>
       <div class="article row">
-        <!-- <div class="txt-col small-5 small-push-1 columns"> -->
-        <div class="txt-col small-5 small-push-1 columns">
-          <h2><?php echo $child->titre?></h2>
-          <?php echo $Parsedown->text($child->text);?>
-        </div>
-        <!-- <div class="gallerie small-5 columns"> -->
-        <div class="gallerie small-5 columns">
-          <ul>
-            <?php if(isset($child->images)): ?>
-              <?php foreach($child->images as $image){?>
-                <!-- <li class="small-7" > -->
-                <li class="small-10">
-                  <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['file'] ?>">
-                </li>
-              <?php } ?>
-            <?php endif ?>
+        <?php if($child->txtfile == 'article.txt'): ?>
+          <div class="txt-col small-5 small-push-1 columns">
+            <h2><?php echo $child->titre?></h2>
+            <?php echo $Parsedown->text($child->text);?>
+          </div>
+          <div class="gallerie small-5 columns">
+            <ul>
+              <?php if(isset($child->images)): ?>
+                <?php foreach($child->images as $image){?>
+                  <!-- <li class="small-7" > -->
+                  <li class="small-10">
+                    <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['file'] ?>">
+                  </li>
+                <?php } ?>
+              <?php endif ?>
             </ul>
           </div>
+        <?php else: ?>
+          <div class="txt-col small-8 small-push-1 columns">
+            <h2><?php echo $child->titre?></h2>
+            <?php echo $Parsedown->text($child->text);?>
+          </div>
+        <?php endif ?>
       </div>
     <?php } ?>
   </div>

@@ -9,12 +9,12 @@
   .blank-page {
     height: 21cm; }
   .cover .titre {
-    font-size: 80px;
-    font-size: rem-calc(80);
-    line-height: 1;
+    font-size: 90px;
+    font-size: rem-calc(90);
+    line-height: 0.9;
     word-wrap: break-word; }
   .cover .imagecouv li {
-    width: 33.33333%; }
+    width: 30%; }
   .small-1 {
     width: 8.33333%; }
   .small-2 {
