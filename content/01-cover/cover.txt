@@ -1,8 +1,9 @@
 titre: 
-#Dustbox Logbook
+Dustbox Logbook
 ----
 subtitle: 
 ----
+imagehead: illu3.jpg
 
 
 

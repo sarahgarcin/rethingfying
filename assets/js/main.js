@@ -29,18 +29,22 @@ function init(){
 
 	$('.gallerie li').each(function(i){
 		var randomMarginLeft = Math.random() * (100+100) - 100;
-		var randomPaddingLeft = Math.random() * (100-20) + 20;
 		var imgW = $(this).width();
 		var imgH = $(this).height();
 		var ratio = imgW / imgH;
-		if(ratio < 1){
-			var padding = 150;
-			var paddingTop = padding/10;
-		}
-		else{
-			var padding = 100;
-			var paddingTop = padding/10;
-		}
+		var padding = 80/ratio;
+		var paddingTop;
+		console.log(ratio, 80/ratio);
+		// if(ratio < 1){
+		// 	padding = 120;
+		// }
+		// if(ratio > 2){
+		// 	padding = 50;
+		// }
+		// else{
+		// 	padding = 80;
+		// }
+		paddingTop = padding/2;
 		// console.log($(this), imgW, imgH, ratio);
 		$(this).css({
 			'padding-left': padding,

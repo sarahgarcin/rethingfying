@@ -1389,9 +1389,9 @@ h2 {
     position: absolute;
     top: 30px;
     left: 6.6666%; }
-  .cover .imagecouv {
+  .cover .imageHead {
     position: relative;
-    padding: 3.125rem; }
+    top: -100px; }
 
 .gallerie {
   margin-bottom: 40px; }

@@ -11,21 +11,26 @@ https://play.google.com/store/apps/details?id=com.electricimp.electricimp&hl=en_
 <br>
 For Apple OS, go to:<br>
 https://itunes.apple.com/gb/app/electric-imp/id547133856?mt=8
-![image 1](content/05-dustbox/02-setup/illus_10.jpg)
+![image 1](content/05-dustbox/02-setup/1.jpg)
 
 2. Once you have installed the Electric Imp app, sign in to the app with your username and password, which you will have received with the Dustbox.
-
+![image 1](content/05-dustbox/02-setup/2.jpg)
 
 3. Click “Configure a device” to add your wifi info to the Electric Imp. This will allow your Dustbox to send its particulate data to our platform and data analysis toolkit (which are available at http://139.162.208.52:3000 and http://www.citizensense.net/airsift-dust-box/).
-
+![image 1](content/05-dustbox/02-setup/3.jpg)
+![image 1](content/05-dustbox/02-setup/8.jpg)
+![image 1](content/05-dustbox/02-setup/9.jpg)
+![image 1](content/05-dustbox/02-setup/10.jpg)
 
 4. Add your wifi info, including network name and password, to the app. This information is stored in the app only, and is not shared with us or made public.
-
+![image 1](content/05-dustbox/02-setup/4.jpg)
 
 5. Plug the USB cable attached to the sensor to a wall socket to power up the device. The device should blink red or orange. If the device does not blink red or orange, you can click the SD card in and out, or unplug the device and plug it in again. You can also plug the USB cable in to your computer to power the device, but this is optional.
-
+![image 1](content/05-dustbox/02-setup/5.jpg)
 
 6. Blinkup the device by clicking “Start Blinkup.” Similar to the picture on the app,  touch your phone so it is flat and contacts the vertical face of the white card. Be sure to point your phone away from you and do not look at the screen during this phase. 
+![image 1](content/05-dustbox/02-setup/6.jpg)
+![image 1](content/05-dustbox/02-setup/7.jpg)
 <br><br>
 Please note the cautionary advice:  
 “Caution: BlinkUp uses flashing light patterns. Please note that a very small percentage of individuals may experience epileptic seizures when exposed to such light patterns or flashing lights. If you have an epileptic condition, consult your physician prior to using this app to configure a device.”
@@ -35,6 +40,7 @@ Hold your phone to the device for the flash phase. Your phone will vibrate when 
 You do not need to note down this information, but it indicates that your device has been assigned a unique ID for talking to our platform.
 <br><br>
 If your phone does not pair with the Electric Imp the first time and is still flashing orange, you may need to repeat the above steps. If you want to confirm whether your device is connected you can unplug your device and plug it back in again, and if the Electric Imp card flashes through to green this indicates you have a wifi connection. You can also use the “clear device setting” button, flash the device and then repeat the settings. 
+![image 1](content/05-dustbox/02-setup/11.jpg)
 
 7. The Dustbox is a very low power device, but if you would like to power off your Dustbox, you can shut this down by unplugging the USB cable. We recommend keeping your Dustbox in continual operation so as to generate a more complete and continuous dataset. 
 

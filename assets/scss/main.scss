@@ -59,9 +59,13 @@ h2 {
     top:30px;
     left: 6.6666%;
   }
-  .imagecouv{
+  // .imagecouv{
+  //   position:relative;
+  //   padding: rem-calc(50);
+  // }
+  .imageHead{
     position:relative;
-    padding: rem-calc(50);
+    top: -100px;
   }
 }
 

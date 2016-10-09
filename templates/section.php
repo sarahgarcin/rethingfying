@@ -31,7 +31,7 @@
                 <h2><?php echo $child->titre?></h2>
                 <?php echo $Parsedown->text($child->text);?>
               </div>
-              <div class="gallerie small-5 columns">
+              <div class="gallerie small-6 columns">
                 <ul>
                   <?php if(isset($child->images)): ?>
                     <?php foreach($child->images as $image){?>
@@ -44,7 +44,7 @@
               </div>
             <!-- si nombre paire -->
             <?php else: ?>
-              <div class="gallerie small-5  small-push-1 columns">
+              <div class="gallerie small-6 columns">
                 <ul>
                   <?php if(isset($child->images)): ?>
                     <?php foreach($child->images as $image){?>
@@ -55,7 +55,7 @@
                   <?php endif ?>
                 </ul>
               </div>
-              <div class="txt-col small-5 small-push-1 end columns">
+              <div class="txt-col small-5  end columns">
                 <h2><?php echo $child->titre?></h2>
                 <?php echo $Parsedown->text($child->text);?>
               </div>
@@ -74,7 +74,7 @@
       <div class="txt-col small-5 small-push-1 columns">
         <?php echo $Parsedown->text($page->text);?>
       </div>
-      <div class="gallerie small-5 columns">
+      <div class="gallerie small-6 columns">
         <ul>
           <?php if(isset($page->images)): ?>
             <?php foreach($page->images as $image){?>
