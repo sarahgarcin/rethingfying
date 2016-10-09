@@ -1,6 +1,6 @@
 titre: Introduction
 ----
-color: rgb(86,103,110)
+color: #56676E
 ----
 imagestart:
 ----

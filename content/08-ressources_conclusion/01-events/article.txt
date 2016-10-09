@@ -1,0 +1,9 @@
+titre: Upcoming events
+----
+text:
+We will be hosting occasional workshops and events to repair and troubleshoot issues that come up with Dustboxes and data, and also to discuss wider issues related to the changing fabric of Deptford, including urban regeneration and repair.
+
+You can find more information about these upcoming events at:
+http://www.citizensense.net/projects/urban-sensing/dustbox-events.
+
+Please check this site regularly, as new events will be added as they are confirmed.

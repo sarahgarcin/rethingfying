@@ -1,0 +1,61 @@
+titre : Air Quality Resources
+----
+text:
+Although this is far from a comprehensive list, below are a few resources that you can refer to if you would like to follow up and learn more on the topics of air quality and air pollution, whether in London, the UK, or farther afield. 
+
+We will continue to update this resource, which is also available on our website at http://www.citizensense.net/projects/urban-sensing/air-quality-resources. If you have any resources you would like to suggest, please send them to us at info@citizensense.net.
+
+
+AIR QUALITY STANDARDS
+The EU Air Quality Objective is the current legislation for air quality in the UK. The limitation for PM 2.5 is 25 µg/m3 over a 1-year period. 
+
+As this is an average over a longer period of time than you will be undertaking monitoring, you can also compare your readings to the World Health Organisation (WHO) guidance for PM 2.5, which is 25 µg/m3 for the 24-hour mean, and 10 µg/m3 for the annual mean (lower than the EU Air Quality Objective).
+
+More information on the EU Air Quality Objective is available at:
+http://ec.europa.eu/environment/air/quality/standards.htm.
+
+The WHO guidelines for particulate matter are available at: 
+http://apps.who.int/iris/bitstream/10665/69477/1/WHO_SDE_PHE_OEH_06.02_eng.pdf
+
+
+LONDON AIR QUALITY RESOURCES
+London’s air quality is officially monitored through the London Air Quality Network (LAQN), a network of monitoring stations that is managed by King’s College London. 
+
+More information on London air quality, including readings at London air quality stations, can be found at: station infrastructure.
+
+Additional London air quality resources include:
+Friends of the Earth, https://www.foe.co.uk.
+
+Greater London Authority (GLA), Pollution and Air Quality, https://www.london.gov.uk/WHAT-WE-DO/environment/pollution-and-air-quality.
+
+London Sustainability Exchange, http://www.lsx.org.uk.
+
+Mapping for Change, http://mappingforchange.org.uk.
+
+
+UK AIR QUALITY RESOURCES
+All-Party Parliamentary Group on Air Pollution, http://www.publications.parliament.uk/pa/cm/cmallparty/160603/air-pollution.htm and https://twitter.com/airpollAPPG.
+
+Department for Environment, Food & Rural Affairs (DEFRA), Air quality statistics (23 April 2014, updated 21 April 2016), https://www.gov.uk/government/statistics/air-quality-statistics.
+
+Department for Environment, Food & Rural Affairs (DEFRA), “Effects of Air Pollution,” https://uk-air.defra.gov.uk/air-pollution/effects.
+
+Environment Agency, Air Pollution, http://apps.environment-agency.gov.uk/wiyby/124274.aspx.
+
+Department for Environment, Food & Rural Affairs (DEFRA), Interactive monitoring networks map,  https://uk-air.defra.gov.uk/interactive-map.
+
+Department for Environment, Food & Rural Affairs (DEFRA), UK-AIR: Air Information Resource, https://uk-air.defra.gov.uk.
+
+Public Health England, Estimates of mortality in local authority areas associated with air pollution (10 April 2014), https://www.gov.uk/government/news/estimates-of-mortality-in-local-authority-areas-associated-with-air-pollution.
+
+Public Health England, Particulate air pollution: health effects of exposure (12 March 2015), https://www.gov.uk/government/publications/particulate-air-pollution-health-effects-of-exposure.
+
+Public Health England, Reports and statements from the Committee on the Medical Effects of Air Pollutants (COMEAP) (17 April 2014), https://www.gov.uk/government/collections/comeap-reports.
+
+Royal Colleges of Physicians and of Paediatrics and Child Health, Every breath we take: the lifelong impact of air pollution (23 February 2016), https://www.rcplondon.ac.uk/projects/outputs/every-breath-we-take-lifelong-impact-air-pollution.
+
+UK Clean Air Act (1993, updated), http://www.legislation.gov.uk/ukpga/1993/11/contents.
+
+UK Clean Air Act (1956), http://www.legislation.gov.uk/ukpga/Eliz2/4-5/52/enacted.
+
+World Health Organisation (WHO), Ambient (outdoor) air quality and health, Factsheet (September 2016), http://www.who.int/mediacentre/factsheets/fs313/en.

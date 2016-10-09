@@ -27,7 +27,7 @@ class subpage{
 					// get the txt file
 					$this->children[$subfolder]->txtfile = $file;
 					// get the fields from the txt file
-					$content = data::read('content/'.$this->page.'/'.$subfolder.'/'.$file, 'md');
+					$content = data::read('content/'.$this->page.'/'.$this->children[$subfolder]->name.'/'.$file, 'md');
 					//return content as key and value - call it $page->nomduchamp dans php
 					foreach($content as $key => $value){
 			      $this->children[$subfolder]->{$key} = $value;
@@ -35,27 +35,11 @@ class subpage{
 				endif;
 				// if files are images - add images in an array
 				if(f::extension($file) == "jpg" || f::extension($file) == "png" || f::extension($file) == "svg" || f::extension($file) == "gif" || f::extension($file) == "jpeg" || f::extension($file) == "JPG"):
-	        // add caption to image array
-	        if(file_exists('content/'.$this->page.'/'.$subfolder.'/'.$file.'.txt')):
-		        $content = data::read('content/'.$this->page.'/'.$subfolder.'/'.$file.'.txt', 'md');
-						foreach($content as $key => $caption){
-				      $captionarray[$key] = $caption;
-				    }
-				    if(!array_key_exists($this->$subfolder, $this->$subfolder->images)){
-				    	$this->children[$subfolder]->images = array();
-				   	}
-				    $imagearray[] = array('file'=>$file, 'url'=>'content/'.$this->page.'/'.$subfolder.'/'.$file, 'captions'=>$captionarray);
-	        	$this->children[$subfolder]->images = $imagearray;
-        		// print_r($imagearray);
-	        else:
-	        	if(!array_key_exists('images', $this->children[$subfolder])){
-				    	$this->children[$subfolder]->{'images'} = array();
-				   	}
-	        	$imagearray[] = array('file'=>$file, 'url'=>'content/'.$this->page.'/'.$subfolder.'/'.$file);
-	        	$this->children[$subfolder]->images = $imagearray;
-	        endif;
+	        $imagearray[] = array('file'=>$file, 'url'=>'content/'.$this->page.'/'.$subfolder.'/'.$file);
+	        $this->children[$subfolder]->images = $imagearray; 
 	      endif;
 			}
+			unset($imagearray);
 		}
 	} 
   

@@ -1396,7 +1396,7 @@ h2 {
 .gallerie {
   margin-bottom: 40px; }
   .gallerie li {
-    padding-top: 40px; }
+    position: relative; }
 
 .gros-text p {
   margin-top: 40px;
@@ -1414,8 +1414,8 @@ h2 {
   max-width: 93.75rem; }
 
 .section {
-  border-left: 20px solid #000;
-  border-right: 20px solid #000; }
+  border-left: 40px solid #000;
+  border-right: 40px solid #000; }
   .section .header {
     position: relative; }
     .section .header .titre {
@@ -1435,6 +1435,9 @@ h2 {
     margin-top: 80px; }
     .section .article p {
       padding-left: 50px; }
+  .section .ops {
+    height: 50vh;
+    border: 1px solid #000; }
 
 @media screen {
   .contenu .titre {

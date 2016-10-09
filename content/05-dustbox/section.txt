@@ -1,6 +1,6 @@
 titre:Dust-<br>box
 ----
-color: rgb(171,145,113)
+color: #AB9171
 ----
 imagehead: Pollen_2_clear.jpeg
 ----

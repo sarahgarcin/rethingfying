@@ -1,0 +1,23 @@
+titre: Acknowledgements 
+----
+text:
+The “Urban Sensing” research, including workshop and walk in Deptford, was organised by Jennifer Gabrys, Lara Houston and Helen Pritchard as part of the Citizen Sense project. 
+
+Thanks are due to the guest speakers, including Leonie Cooper, and […], as well as the workshop participants and community groups who made this event possible. Thanks are also due to the Deptford Lounge and Buster Mantis Creative Space for providing us with venues in which to host the workshop and sensor events.
+
+Thanks to Ashley Simpson for documenting the workshop, to Sarah Garcin and […] for developing this logbook, to Francesca Perona for translating our particulate designs into 3D-printable format, to Lau Thiamkok for setting up and maintaining the Airsift tool infrastructure, and to Raphael Faeh for designing the user interface for our multiple Citizen Sense websites.
+
+The research leading to these results has received funding from the European Research Council under the European Union's Seventh Framework Programme (FP/2007-2013) / ERC Grant Agreement n. 313347, “Citizen Sensing and Environmental Practice: Assessing Participatory Engagements with Environments through Sensor Technologies.”
+
+For more information on the Citizen Sense research project, see citizensense.net.
+
+<ul>
+<li class="small-3 columns">
+<img src="content/08-ressources_conclusion/03-acknowlegments/CitizenSense_Logo.jpg">
+<img src="content/08-ressources_conclusion/03-acknowlegments/goldsmiths_black_large.jpg">
+</li>
+<li class="small-3 columns">
+<img src="content/08-ressources_conclusion/03-acknowlegments/NEW-Logo-ERC-OUTLINE.png"></li>
+<li class="small-2 columns end">
+<img src="content/08-ressources_conclusion/03-acknowlegments/Carbon-Transparent-Web.png"></li>
+</ul>

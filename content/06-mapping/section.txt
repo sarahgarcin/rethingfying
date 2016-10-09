@@ -1,10 +1,12 @@
-titre:Mapping and Walking
+titre:Map-<br>ping <br> and Walk-<br>ing
 ----
-color: #27AAE1
+color: #F19A25
 ----
-imagestart:
+imagehead: Deptford_GNW_OldMap.png
 ----
-imageend:
+imagestart:IMG_1112.JPG
+----
+imageend:IMG_3147.jpg
 ----
 text: During the workshop and walk that we are hosting on Saturday 29 October 2016 in Deptford, we will map key sites where people would like to monitor, and we will also take a short walk of some of these sites in order to assess where and how to monitor the outdoor environment.
 

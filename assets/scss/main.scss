@@ -68,7 +68,8 @@ h2 {
 .gallerie{
   margin-bottom: 40px;
   li{
-    padding-top: 40px; 
+    // padding-top: 40px; 
+    position:relative;
   }
 }
 
@@ -90,8 +91,8 @@ h2 {
 }
 
 .section {
-  border-left: 20px solid #000;
-  border-right: 20px solid #000;
+  border-left: 40px solid #000;
+  border-right: 40px solid #000;
   .header{
     position: relative;
     .titre{
@@ -114,18 +115,12 @@ h2 {
       padding-left: 50px;
     }
   }
+  .ops{
+    height: 50vh; 
+    border: 1px solid #000;
+  }
 }
 
-// .contenu{
-//   clear:both;
-//   border: 20px solid #000;
-// }
-
-// .gallerie{
-//   li{
-//     margin: 30px 0;
-//   }
-// }
 
 @media screen {
   .contenu{

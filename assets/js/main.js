@@ -24,18 +24,29 @@ function init(){
 		$(this).css({
 			'padding': randomPaddingTop + randomMarginLeft ,
 			'margin-top' : randomMarginTop
-			// 'left': (i * $(this).width()),
-			// 'top' : Math.random() * imageH
 		});
 	});
 
 	$('.gallerie li').each(function(i){
-		var randomMarginLeft = Math.random() * (100+80) - 80;
+		var randomMarginLeft = Math.random() * (100+100) - 100;
 		var randomPaddingLeft = Math.random() * (100-20) + 20;
+		var imgW = $(this).width();
+		var imgH = $(this).height();
+		var ratio = imgW / imgH;
+		if(ratio < 1){
+			var padding = 150;
+			var paddingTop = padding/10;
+		}
+		else{
+			var padding = 100;
+			var paddingTop = padding/10;
+		}
+		// console.log($(this), imgW, imgH, ratio);
 		$(this).css({
-			'padding-left': randomPaddingLeft,
-			'padding-right': randomPaddingLeft,
-			'margin-left': randomMarginLeft
+			'padding-left': padding,
+			'padding-right': padding,
+			'padding-bottom': paddingTop,
+			'left': randomMarginLeft
 		});
 	});
 

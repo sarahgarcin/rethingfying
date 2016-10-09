@@ -1,27 +1,37 @@
-titre:Observations
+titre:Obser-<br>vations
 ----
-color: #27AAE1
+color: #BDC667
 ----
-imagestart:
+imagehead:DeptfordDemo_PowerStn.jpeg
 ----
-imageend:
+imagestart:IMG_3162.jpg
+----
+imageend:20160803_164201.jpg
 ----
 text: You can note here events that you have noticed that might indicate pollution or other activity is occurring. You can then refer back to these notes once your and other participants’ datasets are more complete, as a way to compare whether your observations and the data tell a similar or different story.
 
 Things you might make of note of, ideally on a weekly basis or as events occur, include:
 
 *Smells. Describe the particular smell or smells, as well as date and time of day, together with location:
+<div class="ops"></div>
 
 *Visible pollution. Visual signs of pollution might include haze, dust, smog, debris both suspended and settling on surfaces and buildings, including date and time of day, together with location:
+<div class="ops"></div>
 
 *Visible activity. Visual signs of pollution-producing activities might include intensive traffic events, construction events, fires, or other industrial or building activity specific to the area in which you live, including date and time of day, together with location.
+<div class="ops"></div>
 
 *Noise. You might also consider noting down intensive noise levels, particularly if you think they are associated with the visual signs of pollution-producing activities noted above, including date and time of day, together with location:
+<div class="ops"></div>
 
 *News and scientific reports. If you notice news of pollution events in the news, on social media, or on websites or apps such as the London Air Quality Network (LAQN), you might like to note these here, including date and time of day, together with location:
+<div class="ops"></div>
 
 *Comparison to official pollution levels. In addition to noting other reports, you could make a note of official pollution levels recorded in the LAQN on days where you notice particularly high pollution events or activities.
+<div class="ops"></div>
 
 *Health effects. You could note down health effects experienced by you or others who are sensitive to air pollution, including asthma, allergies and shortness of breath. For a list of possible health effects experienced due to air pollution, see https://uk-air.defra.gov.uk/air-pollution/effects, as well as resources listed at the end of this logbook.
+<div class="ops"></div>
 
 *Sending documentation. If you would like to share any of these observations with Citizen Sense, including photographs or other recordings, or if you notice patterns that link up your observations with your or other’s data, please do get in touch at info@citizensense.net.
+<div class=‘ops’></div>
