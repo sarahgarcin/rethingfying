@@ -2,19 +2,54 @@
 @import url(../font/volkorn/stylesheet.css);
 @media print {
   @page {
-    size: 15cm 21cm;
-    marks: crop; }
-  body {
-    border: 1px solid #000; }
+    size: 15cm 21cm; }
+  p {
+    font-size: 20pt !important;
+    line-height: 1.29;
+    page-break-inside: avoid !important; }
+  .break-after {
+    page-break-after: always !important;
+    width: 100%; }
   .blank-page {
-    height: 21cm; }
-  .cover .titre {
-    font-size: 90px;
-    font-size: rem-calc(90);
-    line-height: 1;
-    word-wrap: break-word; }
-  .cover .imagecouv li {
-    width: 30%; }
+    height: 21cm;
+    width: 100%;
+    page-break-after: always !important; }
+  .cover {
+    width: 100%; }
+    .cover .titre {
+      font-size: 92px;
+      font-size: rem-calc(92);
+      line-height: 1;
+      word-wrap: break-word;
+      text-align: justify; }
+    .cover .imageHead {
+      width: 90%;
+      margin-top: 10cm; }
+  .article {
+    width: 100%;
+    margin: 4cm; }
+    .article .text {
+      border: 1px solid #000;
+      padding: 0 0.7cm; }
+  .introduction .text {
+    margin-left: 2cm;
+    width: 80%;
+    page-break-after: always; }
+  .introduction .gallerie {
+    page-break-before: always; }
+    .introduction .gallerie li {
+      width: 80%; }
+  .imagestart {
+    border: 1px solid #000;
+    width: 100% !important;
+    height: 31.42cm;
+    overflow: hidden; }
+    .imagestart img {
+      height: 31.42cm;
+      width: auto !important; }
+  .txt-col {
+    width: 80%;
+    margin: auto; }
   .small-1 {
     width: 8.33333%; }
   .small-2 {

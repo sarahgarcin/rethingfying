@@ -6,7 +6,7 @@
   <meta name="description" content="Re-Thingifying the smart city workshop">
   <meta name="keywords" content="re-thingifying, smart city, citizen sense">
   <meta name="author" content="Sarah Garcin g-u-i">
-  <title>Re-Thingifying the Smart City</title>
+  <title>Dustbox Logbook</title>
 
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
