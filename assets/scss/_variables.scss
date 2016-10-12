@@ -8,8 +8,14 @@ $marginLPrint : 2cm;
 $pageHS: 31.41cm;
 
 @mixin text60 {
-  font-size:  150px;
-  font-size: rem-calc(150);
+  font-size:  300px;
+  font-size: rem-calc(300);
+  line-height: 1;
+}
+
+@mixin sectionTitre {
+  font-size:  250px;
+  font-size: rem-calc(250);
   line-height: 1;
 }
 

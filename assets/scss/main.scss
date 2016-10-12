@@ -19,6 +19,7 @@ p {
   @include text20;
 }
 
+
 ul{
   margin:0;
   padding:0;
@@ -32,7 +33,7 @@ img{width:100%;}
 .titre{ 
   font-family: $font-titre;
   text-transform: uppercase;
-  @include text60;
+  h1{@include sectionTitre;}
 }
 
 .text{ 
@@ -52,17 +53,21 @@ h2 {
   text-transform: uppercase;
 }
 
+.imagestart{
+  padding-bottom: 50px;
+}
+.imageend{
+  padding-top: 50px;
+}
+
 .cover{
   height: 100vh;
   .titre{
     position:absolute;
     top:30px;
     left: 6.6666%;
+    h1{@include text60;}
   }
-  // .imagecouv{
-  //   position:relative;
-  //   padding: rem-calc(50);
-  // }
   .imageHead{
     position:relative;
     top: -100px;
@@ -70,6 +75,7 @@ h2 {
 }
 
 .gallerie{
+  padding-top: 100px;
   margin-bottom: 40px;
   li{
     // padding-top: 40px; 
@@ -116,7 +122,7 @@ h2 {
   .article{
     margin-top: 80px;
     p{
-      padding-left: 50px;
+      padding-left: 10px;
     }
   }
   .ops{
@@ -126,15 +132,6 @@ h2 {
 }
 
 
-@media screen {
-  .contenu{
-    .titre{ 
-      @include text32;
-      border-bottom: 4px solid #000;
-    }
-  }
-  
-}
 
 
 

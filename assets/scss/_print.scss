@@ -2,23 +2,32 @@
 
 	@page {
 		size: $page-width $pageHeight;
-
+    // margin:0cm;
+    // margin-top: 2cm !important;
+    // margin-bottom: 2cm !important;
 	}
+
 
   p{
     @include textPrint;
     page-break-inside: avoid !important;
   }
 
+
   .break-after{
+    -webkit-region-break-after: always !important;
+    break-after: always !important;
     page-break-after: always !important; 
     width: 100%;
+    // permet de faire fonctionner le break-after
+    float: none !important;
+    display: block;
+    position: relative;
   }
 
 	.blank-page{
 		height: $pageHeight;
     width: 100%;
-    // border: 1px solid #000;
     page-break-after: always !important; 
 	}
 
@@ -50,24 +59,48 @@
     .text{
       margin-left: $marginLPrint;
       width: 80%;
-      page-break-after:always;
     }
     .gallerie{
-      page-break-before:always;
       li{
         width: 80%;
+        margin: auto; 
       }
     }
   }
 
   .imagestart{
-    border: 1px solid #000;
     width: 100% !important;
-    height: 31.42cm;
+    // height: $pageHS;
     overflow: hidden;
     img{
-      height: 31.42cm;
-      width: auto !important;
+      // height: $pageHS;
+      width: 100% !important;
+      // margin-left: -4cm !important;
+    }
+  }
+
+  .section{
+    .header{
+      padding-top: 3cm !important;
+      .titre{
+        width: 100% !important;
+      }
+      .imageHead{
+        width: 80% !important;
+      }
+    }
+    .article{
+      margin-top: 20px !important;
+    }
+    .text-col{
+      margin-left: $marginLPrint;
+      width: 80% !important;
+    }
+    .gallerie{
+      li{
+        width: 80% !important;
+        margin: auto !important; 
+      }
     }
   }
 

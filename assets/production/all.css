@@ -8,8 +8,13 @@
     line-height: 1.29;
     page-break-inside: avoid !important; }
   .break-after {
+    -webkit-region-break-after: always !important;
+    break-after: always !important;
     page-break-after: always !important;
-    width: 100%; }
+    width: 100%;
+    float: none !important;
+    display: block;
+    position: relative; }
   .blank-page {
     height: 21cm;
     width: 100%;
@@ -33,20 +38,29 @@
       padding: 0 0.7cm; }
   .introduction .text {
     margin-left: 2cm;
+    width: 80%; }
+  .introduction .gallerie li {
     width: 80%;
-    page-break-after: always; }
-  .introduction .gallerie {
-    page-break-before: always; }
-    .introduction .gallerie li {
-      width: 80%; }
+    margin: auto; }
   .imagestart {
-    border: 1px solid #000;
     width: 100% !important;
-    height: 31.419cm;
     overflow: hidden; }
     .imagestart img {
-      height: 31.419cm;
-      width: auto !important; }
+      width: 100% !important; }
+  .section .header {
+    padding-top: 3cm !important; }
+    .section .header .titre {
+      width: 100% !important; }
+    .section .header .imageHead {
+      width: 80% !important; }
+  .section .article {
+    margin-top: 20px !important; }
+  .section .text-col {
+    margin-left: 2cm;
+    width: 80% !important; }
+  .section .gallerie li {
+    width: 80% !important;
+    margin: auto !important; }
   .txt-col {
     width: 80%;
     margin: auto; }
@@ -1393,10 +1407,11 @@ img {
 
 .titre {
   font-family: "share";
-  text-transform: uppercase;
-  font-size: 150px;
-  font-size: 9.375rem;
-  line-height: 1; }
+  text-transform: uppercase; }
+  .titre h1 {
+    font-size: 200px;
+    font-size: 12.5rem;
+    line-height: 1; }
 
 .text {
   font-family: "vollkorn";
@@ -1418,17 +1433,28 @@ h2 {
   line-height: 1.2;
   text-transform: uppercase; }
 
+.imagestart {
+  padding-bottom: 50px; }
+
+.imageend {
+  padding-top: 50px; }
+
 .cover {
   height: 100vh; }
   .cover .titre {
     position: absolute;
     top: 30px;
     left: 6.6666%; }
+    .cover .titre h1 {
+      font-size: 300px;
+      font-size: 18.75rem;
+      line-height: 1; }
   .cover .imageHead {
     position: relative;
     top: -100px; }
 
 .gallerie {
+  padding-top: 100px;
   margin-bottom: 40px; }
   .gallerie li {
     position: relative; }
@@ -1457,8 +1483,8 @@ h2 {
       font-family: "share";
       text-transform: uppercase;
       margin-left: 6.66666%;
-      font-size: 150px;
-      font-size: 9.375rem;
+      font-size: 300px;
+      font-size: 18.75rem;
       line-height: 1;
       word-wrap: break-word; }
     .section .header .imageHead {
@@ -1469,14 +1495,7 @@ h2 {
   .section .article {
     margin-top: 80px; }
     .section .article p {
-      padding-left: 50px; }
+      padding-left: 10px; }
   .section .ops {
     height: 50vh;
     border: 1px solid #000; }
-
-@media screen {
-  .contenu .titre {
-    font-size: 60px;
-    font-size: 3.75rem;
-    line-height: 1.2;
-    border-bottom: 4px solid #000; } }

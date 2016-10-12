@@ -28,7 +28,7 @@ function init(){
 	});
 
 	$('.gallerie li').each(function(i){
-		var randomMarginLeft = Math.random() * (100+100) - 100;
+		var randomMarginLeft = Math.random() * (100+40) - 40;
 		var imgW = $(this).width();
 		var imgH = $(this).height();
 		var ratio = imgW / imgH;

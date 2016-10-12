@@ -22,7 +22,10 @@ VIEWING DATA AND SETTING UP STREAMS
 
 10. For examples of how the plots and graphs can be assembled together along with observations and images, see datastories.citizensense.net as a previous example of how we worked with citizens to create new forms of evidence from their data.
 
-11. If you have any ideas about how you would like to assemble your data, or you would like to work with us to generate a data story, drop a line at info@citizense.net!
+11. 
+If you have any ideas about how you would like to assemble your data, or you would like to work with us to generate a data story, drop a line at info@citizense.net!
+
+
 
 
 

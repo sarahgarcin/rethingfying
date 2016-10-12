@@ -4,9 +4,9 @@ color: #BDC667
 ----
 imagehead:DeptfordDemo_PowerStn.jpeg
 ----
-imagestart:IMG_3162.jpg
+imagestart:start-blue.jpg
 ----
-imageend:20160803_164201.jpg
+imageend:end-blue.jpg
 ----
 text: You can note here events that you have noticed that might indicate pollution or other activity is occurring. You can then refer back to these notes once your and other participants’ datasets are more complete, as a way to compare whether your observations and the data tell a similar or different story.
 

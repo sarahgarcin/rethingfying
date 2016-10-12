@@ -1,10 +1,10 @@
-titre:Resources and Conclusion
+titre: Resour-<br>ces and <br>  Conclu-<br>sion
 ----
 color: #DBB90F
 ----
 imagehead:Pollen-Dustbox-Web.jpg
 ----
-imagestart:IMG_3159.jpg
+imagestart:start-blue.jpg
 ----
-imageend:L1010655.JPG
+imageend:end-blue.JPG
 ----

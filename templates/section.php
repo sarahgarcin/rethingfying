@@ -8,7 +8,7 @@
 
   <div class="content">
 
-    <div class="header">
+    <div class="header break-after">
       <div class="titre small-10">
         <h1><?php echo $page->titre;?></h1>
       </div>
@@ -23,11 +23,11 @@
     <?php if($subpage->children): ?>
       <? $count = 1 ?>
       <?php foreach($subpage->children as $child) { ?>
-        <div class="article row">
+        <div class="article row break-after">
           <?php if($child->txtfile == 'article.txt'): ?>
             <!-- si nombre impaire -->
             <?php if($count % 2 != 0 ): ?>
-              <div class="txt-col small-5 small-push-1 columns">
+              <div class="txt-col small-5 small-push-1 columns break-after">
                 <h2><?php echo $child->titre?></h2>
                 <?php echo $Parsedown->text($child->text);?>
               </div>
@@ -44,7 +44,7 @@
               </div>
             <!-- si nombre paire -->
             <?php else: ?>
-              <div class="gallerie small-6 columns">
+              <div class="gallerie small-6 columns break-after">
                 <ul>
                   <?php if(isset($child->images)): ?>
                     <?php foreach($child->images as $image){?>
@@ -55,14 +55,14 @@
                   <?php endif ?>
                 </ul>
               </div>
-              <div class="txt-col small-5  end columns">
+              <div class="txt-col small-5 end columns break-after">
                 <h2><?php echo $child->titre?></h2>
                 <?php echo $Parsedown->text($child->text);?>
               </div>
             <?php endif?>
             <?php $count ++; ?>
           <?php else: ?>
-            <div class="txt-col small-8 small-push-1 columns">
+            <div class="txt-col small-8 small-push-1 columns break-after">
               <h2><?php echo $child->titre?></h2>
               <?php echo $Parsedown->text($child->text);?>
             </div>
@@ -71,7 +71,7 @@
       <?php } ?>
 
     <?php else: ?>
-      <div class="txt-col small-5 small-push-1 columns">
+      <div class="txt-col small-5 small-push-1 columns break-after">
         <?php echo $Parsedown->text($page->text);?>
       </div>
       <div class="gallerie small-6 columns">
@@ -91,7 +91,7 @@
   </div>
 
   <?php if(isset($page->imageend)){ ?>
-    <div class="imagestart small-4 small-push-8" >
+    <div class="imageend small-4 small-push-8" >
       <img src="<?php echo 'content/'.$folder.'/'.$page->imageend ?>" alt="">
     </div>
   <?php } ?>

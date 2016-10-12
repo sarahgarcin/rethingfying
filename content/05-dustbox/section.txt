@@ -4,9 +4,9 @@ color: #AB9171
 ----
 imagehead: Pollen_2_clear.jpeg
 ----
-imagestart:L1010626-bleu.jpg
+imagestart:start-bleu.jpg
 ----
-imageend:IMG_3160-bleu.jpg
+imageend:end-bleu.jpg
 ----
 text: 
 
