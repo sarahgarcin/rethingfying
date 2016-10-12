@@ -20,8 +20,8 @@ $pageHS: 31.41cm;
 }
 
 @mixin h1print {
-  font-size:  92px;
-  font-size: rem-calc(92);
+  font-size:  250px !important;
+  font-size: rem-calc(250) !important;
   line-height: 1;
 }
 

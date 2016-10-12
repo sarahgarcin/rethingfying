@@ -6,7 +6,10 @@
     </div>
   <?php } ?>
 
-  <div class="titre small-10 small-push-1">
+  <div class="titre small-10 small-push-1 for-web-only">
     <h1><?php echo $page->titre;?></h1>
+  </div>
+  <div class="for-print-only titre small-10 small-push-1">
+    <h1><?php echo $page->titreprint;?></h1>
   </div>
 </div>

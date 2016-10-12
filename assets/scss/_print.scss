@@ -13,6 +13,33 @@
     page-break-inside: avoid !important;
   }
 
+  li{
+    page-break-inside: avoid !important;
+    float: none !important;
+    display: block;
+    position: relative;
+  }
+
+  h3{
+    -webkit-region-break-after: avoid !important;
+    break-after: avoid !important;
+    page-break-after: avoid !important; 
+    // permet de faire fonctionner le break-after
+    float: none !important;
+    display: block;
+    position: relative;
+  }
+
+  ol{
+    -webkit-region-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-before: avoid !important; 
+    // permet de faire fonctionner le break-after
+    float: none !important;
+    display: block;
+    position: relative;
+  }
+
 
   .break-after{
     -webkit-region-break-after: always !important;
@@ -31,17 +58,25 @@
     page-break-after: always !important; 
 	}
 
+  .for-print-only{
+    display: block !important;
+  }
+
+  .for-web-only{
+    display:none;
+  }
+
 	.cover{
     width: 100%;
-    // border: 1px solid #000;
 		.titre{
-			@include h1print;
-			word-wrap: break-word;
+      width: 19cm;
+			h1{@include h1print;}
       text-align: justify;
 		}
     .imageHead{
       width:90%;
-      margin-top: 10cm;
+      padding-top: 6cm;
+      margin-left: 5cm; 
     }
 
 	}
@@ -68,14 +103,11 @@
     }
   }
 
-  .imagestart{
+  .imagestart, .imageend{
     width: 100% !important;
-    // height: $pageHS;
     overflow: hidden;
     img{
-      // height: $pageHS;
       width: 100% !important;
-      // margin-left: -4cm !important;
     }
   }
 
@@ -102,12 +134,36 @@
         margin: auto !important; 
       }
     }
+    .setup{
+      width: 80%; 
+      margin:auto;
+    }
   }
 
+  .text-col{
+    margin: auto !important;
+    width: 80% !important;
+  }
 
-  .txt-col{
-    width: 80%;
-    margin:auto;
+  .ops{
+    height: 20cm !important; 
+    page-break-inside: avoid !important; 
+    page-break-after: always !important; 
+    // permet de faire fonctionner le break-after
+    float: none !important;
+    display: block;
+    position: relative;
+  }
+
+  .logos{
+    width: 25% !important; 
+    margin-top: 1cm !important; 
+  }
+
+  .back .image{
+    width: 80% !important;
+    margin: auto !important;
+    padding-top: 10cm; 
   }
 
 

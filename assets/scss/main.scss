@@ -19,6 +19,10 @@ p {
   @include text20;
 }
 
+p img{
+  margin: 30px 0; 
+}
+
 
 ul{
   margin:0;
@@ -45,12 +49,23 @@ img{width:100%;}
   margin:auto;
 }
 
+
+
 h1{margin:0;font-weight:normal;}
 
 h2 {
   font-family: $font-titre;
   @include text32;
   text-transform: uppercase;
+}
+
+h3{
+  font-family: $font-titre;
+  @include text28;
+}
+
+.for-print-only{
+  display:none;
 }
 
 .imagestart{
@@ -121,6 +136,7 @@ h2 {
   }
   .article{
     margin-top: 80px;
+    word-wrap: break-word;
     p{
       padding-left: 10px;
     }

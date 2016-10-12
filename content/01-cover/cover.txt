@@ -1,7 +1,7 @@
 titre: 
 Dustbox Logbook
 ----
-subtitle: 
+titreprint: Dust-<br>box Log-<br>book
 ----
 imagehead: illu3.jpg
 

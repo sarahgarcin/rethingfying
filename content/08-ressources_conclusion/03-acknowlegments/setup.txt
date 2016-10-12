@@ -11,7 +11,7 @@ The research leading to these results has received funding from the European Res
 
 For more information on the Citizen Sense research project, see citizensense.net.
 
-<ul>
+<ul class='logos'>
 <li class="small-3 columns">
 <img src="content/08-ressources_conclusion/03-acknowlegments/CitizenSense_Logo.jpg">
 <img src="content/08-ressources_conclusion/03-acknowlegments/goldsmiths_black_large.jpg">

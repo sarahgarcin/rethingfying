@@ -62,7 +62,7 @@
             <?php endif?>
             <?php $count ++; ?>
           <?php else: ?>
-            <div class="txt-col small-8 small-push-1 columns break-after">
+            <div class="txt-col setup small-8 small-push-1 columns break-after">
               <h2><?php echo $child->titre?></h2>
               <?php echo $Parsedown->text($child->text);?>
             </div>

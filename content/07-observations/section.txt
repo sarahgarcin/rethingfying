@@ -11,7 +11,7 @@ imageend:end-blue.jpg
 text: You can note here events that you have noticed that might indicate pollution or other activity is occurring. You can then refer back to these notes once your and other participants’ datasets are more complete, as a way to compare whether your observations and the data tell a similar or different story.
 
 Things you might make of note of, ideally on a weekly basis or as events occur, include:
-
+<div class="break-after"></div>
 *Smells. Describe the particular smell or smells, as well as date and time of day, together with location:
 <div class="ops"></div>
 
