@@ -7,6 +7,10 @@
     // margin-bottom: 2cm !important;
 	}
 
+  body {
+    width: $page-width;
+  }
+
 
   p{
     @include textPrint;

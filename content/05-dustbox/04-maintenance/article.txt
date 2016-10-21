@@ -31,7 +31,7 @@ In addition to setting up your Dustbox and viewing your data, you will want to c
 
 14. In the event that dust or bugs get lodged in your sensor, you can power off the device, open the ceramic case at the centre, and spray the sensor opening with canned air. If you have any questions about how to do this, please contact info@citizensense.net.
 
-15. While you will need to access the Electric Imp to set up the wifi and to spray out the sensor, you should avoid dismantling the electronics as this could present a risk of shock, and could interfere with the measurement functioning of the device.
+15. While you will need to access the Electric Imp to set up the Wifi and to spray out the sensor, you should avoid dismantling the electronics as this could present a risk of shock, and could interfere with the measurement functioning of the device.
 
 16. Ensure the Dustbox is maintained and in a good state of repair when it is given to you. If it is not, you can return it to the Deptford Lounge or contact us at info@citizensense.net.
 
@@ -39,7 +39,7 @@ In addition to setting up your Dustbox and viewing your data, you will want to c
 
 18. If you are concerned about any changes in the equipment, please contact Citizen Sense at info@citizensense.net.
 
-Note
+Note:
 We may add to this safety guide over time. Please refer to our website for the latest guidelines at http://www.citizensense.net/projects/urban-sensing/dustbox-safety-guide.
 
 

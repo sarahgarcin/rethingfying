@@ -64,6 +64,11 @@ h3{
   @include text28;
 }
 
+a{
+  text-decoration: none;
+  color: #000; 
+}
+
 .for-print-only{
   display:none;
 }
@@ -95,6 +100,27 @@ h3{
   li{
     // padding-top: 40px; 
     position:relative;
+  }
+}
+
+.sommaire {
+  ul{
+    li{
+      text-transform: uppercase;
+      font-family: 'Share', monospace;
+      margin-bottom: 30px;
+      @include text28;
+      ul{
+        padding-left: 30px;
+        li{
+          margin-bottom: 10px;
+          @include text20;
+          &:first-child{
+            margin-top: 10px;
+          }
+        }
+      }
+    }
   }
 }
 

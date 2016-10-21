@@ -8,7 +8,7 @@ imagestart: start-blue.jpg
 ----
 imageend: end-blue.jpg
 ----
-text: During the workshop and walk that we are hosting on Saturday 29 October 2016 in Deptford, we will map key sites where people would like to monitor, and we will also take a short walk of some of these sites in order to assess where and how to monitor the outdoor environment.
+text: During the workshop and walk that we are hosting on Saturday, 29 October 2016 in Deptford, we will map key sites where people would like to monitor, and we will also take a short walk of some of these sites in order to assess where and how to monitor the outdoor environment.
 
 Included here is a map we have developed of key development and construction sites in the Deptford, New Cross and Greenwich areas. This map is also available on our Airsift Dustbox Data Analysis Toolkit website at http://www.citizensense.net/airsift-dust-box.
 

@@ -3,6 +3,8 @@
 @media print {
   @page {
     size: 15cm 21cm; }
+  body {
+    width: 15cm; }
   p {
     font-size: 20pt !important;
     line-height: 1.29;
@@ -48,8 +50,8 @@
       width: 19cm;
       text-align: justify; }
       .cover .titre h1 {
-        font-size: 270px !important;
-        font-size: rem-calc(270) !important;
+        font-size: 250px !important;
+        font-size: rem-calc(250) !important;
         line-height: 1; }
     .cover .imageHead {
       width: 90%;
@@ -1484,6 +1486,10 @@ h3 {
   font-size: 1.75rem;
   line-height: 1.3125; }
 
+a {
+  text-decoration: none;
+  color: #000; }
+
 .for-print-only {
   display: none; }
 
@@ -1512,6 +1518,21 @@ h3 {
   margin-bottom: 40px; }
   .gallerie li {
     position: relative; }
+
+.sommaire ul li {
+  text-transform: uppercase;
+  font-family: 'Share', monospace;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-size: 1.75rem;
+  line-height: 1.3125; }
+  .sommaire ul li ul {
+    padding-left: 30px; }
+    .sommaire ul li ul li {
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-size: 1.25rem;
+      line-height: 1.29; }
 
 .gros-text p {
   margin-top: 40px;

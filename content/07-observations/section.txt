@@ -15,13 +15,15 @@ Things you might make of note of, ideally on a weekly basis or as events occur, 
 *Smells. Describe the particular smell or smells, as well as date and time of day, together with location:
 <div class="ops"></div>
 
-*Visible pollution. Visual signs of pollution might include haze, dust, smog, debris both suspended and settling on surfaces and buildings, including date and time of day, together with location:
+*Visible pollution. Visual signs of pollution might include haze, dust, smog, debris both suspended and settling on surfaces and buildings. Note date and time of day, together with location:
 <div class="ops"></div>
 
-*Visible activity. Visual signs of pollution-producing activities might include intensive traffic events, construction events, fires, or other industrial or building activity specific to the area in which you live, including date and time of day, together with location.
+*Visible activity. Visual signs of pollution-producing activities might include intensive traffic events, construction events, fires, or other industrial or building activity specific to the area in which you live. 
+Note date and time of day, together with location:
 <div class="ops"></div>
 
-*Noise. You might also consider noting down intensive noise levels, particularly if you think they are associated with the visual signs of pollution-producing activities noted above, including date and time of day, together with location:
+*Noise. You might also consider noting down intensive noise levels, particularly if you think they are associated with the visual signs of pollution-producing activities noted above.
+Note date and time of day, together with location:
 <div class="ops"></div>
 
 *News and scientific reports. If you notice news of pollution events in the news, on social media, or on websites or apps such as the London Air Quality Network (LAQN), you might like to note these here, including date and time of day, together with location:
